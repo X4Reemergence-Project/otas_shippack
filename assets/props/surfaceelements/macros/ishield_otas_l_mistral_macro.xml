@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_otas_l_mistral_macro" class="shieldgenerator">
+		<component ref="ishield_otas_l_mistral"/>
+		<properties>
+			<identification name="{96000,904}"/>
+			<recharge max="14995" rate="605" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

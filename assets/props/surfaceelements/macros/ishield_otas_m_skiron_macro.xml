@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_otas_m_skiron_macro" class="shieldgenerator">
+		<component ref="ishield_otas_m_skiron"/>
+		<properties>
+			<identification name="{96000,907}"/>
+			<recharge max="18793" rate="423" delay="0"/>
+			<hull integrated="1"/>
+		</properties>
+	</macro>
+</macros>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	<macro name="ishield_otas_xl_vesuvius_macro" class="shieldgenerator">
+		<component ref="ishield_otas_xl_vesuvius" />
+		<properties>
+			<identification name="{96000,913}"/>
+			<recharge max="13119" rate="568" delay="0" />
+			<hull integrated="1" />
+		</properties>
+	</macro>
+</macros>

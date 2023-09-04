@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_otas_xl_andaman_macro" class="shieldgenerator">
+    <component ref="ishield_otas_xl_andaman" />
+    <properties>
+	  <identification name="{96000,915}"/>
+      <recharge max="118066" rate="1992" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>
