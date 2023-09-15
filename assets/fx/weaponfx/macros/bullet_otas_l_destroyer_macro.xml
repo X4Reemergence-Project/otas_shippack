@@ -4,7 +4,7 @@
     <component ref="bullet_otas_l_destroyer" />
     <properties>
       <ammunition value="1" reload="0" />
-      <bullet speed="8750" lifetime="2" amount="1" barrelamount="1" icon="weapon_railgun_mk2" timediff="0.001" angle="0.03" maxhits="1" ricochet="0" scale="0" attach="0" chargetime="6.625" heatwhilecharging="0" requirefullcharge="1" firewhenfullcharge="1"/>
+      <bullet speed="8750" lifetime="2" amount="1" barrelamount="1" icon="weapon_railgun_mk2" timediff="0.001" angle="0.1" maxhits="1" ricochet="0" scale="0" attach="0" chargetime="6.625" heatwhilecharging="0" requirefullcharge="1" firewhenfullcharge="1"/>
       <heat value="500" />
       <reload time="6.725" />
       <damage value="29750" hull="15250"  repair="0">

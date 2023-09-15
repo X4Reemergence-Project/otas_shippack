@@ -278,9 +278,8 @@
 			<restriction licence="militaryship"/>
 			<owner faction="argon"/>
 		</ware>
-<!--
 		<ware id="ship_otas_s_solano" name="{96000,705}" description="{96000,805}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="103156" average="128945" max="154734" />
+			<price min="87682.6" average="103156" max="118629.4" />
 			<production time="8" amount="1" method="default" name="{20206,101}">
 				<primary>
 					<ware ware="energycells" amount="52"/>
@@ -291,6 +290,7 @@
 			<restriction licence="generaluseship"/>
 			<owner faction="argon"/>
 		</ware>
+<!--
 		<ware id="ship_otas_s_venti" name="{96000,708}" description="{96000,808}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="196532" average="245665" max="294798" />
 			<production time="14" amount="1" method="default" name="{20206,101}">

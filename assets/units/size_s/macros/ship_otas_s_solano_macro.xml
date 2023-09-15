@@ -13,20 +13,20 @@
 			<software ware="software_targetmk1" compatible="1" />
 			<software ware="software_trademk1" compatible="1" />
 		  </software>
-		  <storage missile="12" />
-		  <hull max="3350" />
+		  <storage missile="0" />
+		  <hull max="2500" />
 		  <secrecy level="1" />
 		  <purpose primary="fight" />
-		  <people capacity="2" />
+		  <people capacity="1" />
 		  <sounds>
 			<shipdetail ref="shipdetail_ship_02" />
 		  </sounds>
-		  <physics mass="7.731">
+		  <physics mass="3">
 			<inertia pitch="2.1" yaw="2.1" roll="1.7" />
-			<drag forward="1.9" reverse="9.1" horizontal="5.7" vertical="5.7" pitch="3.9" yaw="3.9" roll="3.9" />
+			<drag forward="0.98" reverse="6" horizontal="6" vertical="6" pitch="4" yaw="4" roll="4" />
 		  </physics>
 		  <thruster tags="small" />
-		  <ship type="interceptor" />
+		  <ship type="scout" />
 		  <sound_occlusion inside="0.5" />
           <radar range="50000" />		  
 		</properties>
@@ -35,7 +35,7 @@
 			<macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
 		  </connection>
 		  <connection ref="con_dock_xs">
-			<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+			<macro ref="dock_gen_xs_ship_flat_macro" connection="Connection_component" />
 		  </connection>
 		  <connection ref="con_shipstorage_xs_01">
 			<macro ref="shipstorage_gen_xs_01_macro" connection="object" />
