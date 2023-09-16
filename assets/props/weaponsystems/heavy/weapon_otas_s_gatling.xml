@@ -51,8 +51,8 @@
 				<restrictions>
 					<restriction type="rotation_y">
 						<limits>
-							<min value="-5"/>
-							<max value="5"/>
+							<min value="-7.5"/>
+							<max value="7.5"/>
 						</limits>
 					</restriction>
 				</restrictions>
@@ -92,8 +92,8 @@
 				<restrictions>
 					<restriction type="rotation_x">
 						<limits>
-							<min value="-5"/>
-							<max value="5"/>
+							<min value="-7.5"/>
+							<max value="7.5"/>
 						</limits>
 					</restriction>
 				</restrictions>
