@@ -5,7 +5,7 @@
     <properties>
       <ammunition value="6000" reload="1" />
       <bullet speed="4000" lifetime="1.00" amount="3" barrelamount="1" icon="weapon_gatling_mk1" timediff="0.017" angle="0.3" maxhits="2" ricochet="0.01" restitution="0.3" scale="0" attach="0" />
-      <heat value="10" />
+      <heat value="65" />
       <reload rate="20" />
       <damage value="13" repair="0" />
       <effects>
