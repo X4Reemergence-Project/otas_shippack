@@ -5,7 +5,7 @@
     <properties>
       <identification name="{96000,204}" basename="{96000,204}" shortname="{96000,204}" makerrace="otas" description="{96000,304}" />
       <bullet class="bullet_otas_s_gatling_macro" />
-      <heat overheat="1500" cooldelay="0" coolrate="750" reenable="0" />
+      <heat overheat="10000" cooldelay="0" coolrate="5000" reenable="0" />
       <rotationspeed max="123.9" />
       <rotationacceleration max="247.8" />
       <reload />
