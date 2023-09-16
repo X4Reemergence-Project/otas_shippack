@@ -6,7 +6,7 @@
     <properties>
       <identification name="{96000,207}" basename="{96000,207}" shortname="{96000,207}" description="{96000,307}" makerrace="otas" />
       <bullet class="bullet_otas_s_notus_bomb_macro" />
-      <heat overheat="15000" cooldelay="0" coolrate="5000" reenable="0" />
+      <heat overheat="10000" cooldelay="0" coolrate="2000" reenable="0" />
       <rotationspeed max="123.9" />
       <rotationacceleration max="247.8" />
       <reload />
