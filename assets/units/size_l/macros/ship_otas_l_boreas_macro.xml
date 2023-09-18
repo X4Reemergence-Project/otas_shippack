@@ -16,13 +16,13 @@
 		  </software>
 		  <explosiondamage value="1000" shield="6000" />
 		  <storage missile="180" unit="25" />
-		  <hull max="247500" />
+		  <hull max="217500" />
 		  <secrecy level="2" />
 		  <purpose primary="fight" />
 		  <people capacity="52" />
 		  <physics mass="630">
 			<inertia pitch="209" yaw="209" roll="167" />
-			<drag forward="195" reverse="418" horizontal="165" vertical="165" pitch="222" yaw="222" roll="222" />
+			<drag forward="210" reverse="418" horizontal="165" vertical="165" pitch="222" yaw="222" roll="222" />
 		  </physics>
 		  <thruster tags="large" />
 		  <ship type="destroyer" />

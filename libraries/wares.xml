@@ -181,11 +181,11 @@
 		</ware>	
 -->		
 		<ware id="ship_otas_l_boreas" name="{96000,700}" description="{96000,800}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="23397500" average="27492062" max="31586624" />
+			<price min="20995585" average="23775081" max="29554577" />
 			<production time="200" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="energycells" amount="750" />
-					<ware ware="hullparts" amount="20000" />
+					<ware ware="energycells" amount="3559" />
+					<ware ware="hullparts" amount="7566" />
 				</primary>
 			</production>
 			<component ref="ship_otas_l_boreas_macro" amount="1"/>
