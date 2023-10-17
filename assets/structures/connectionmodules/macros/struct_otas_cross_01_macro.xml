@@ -3,7 +3,7 @@
   <macro name="struct_otas_cross_01_macro" class="connectionmodule">
     <component ref="struct_otas_cross_01" />
     <properties>
-      <identification name="{96000,400}" shortname="{96000,401}" makerrace="otas" description="{96000,400}" />
+      <identification name="{19530002,400}" shortname="{19530002,401}" makerrace="otas" description="{19530002,400}" />
       <build>
         <sets>
           <set ref="factory" />

@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <language>
-  <page id="96000" title="OTAS" descr="OTAS" voice="yes">	
+  <page id="19530002" title="OTAS" descr="OTAS" voice="yes">	
 	<t id="100">OTAS</t>
 	<t id="101">The Optimised Technology, Armaments and Shielding Corporation, commonly known as OTAS, is a corporation specialized in the design and manufacture of advanced spaceships located in Legend's Home. Technologies created by OTAS were top of the line and frequently the most advanced in the Commonwealth.\n\nPrior to the Great Collapse, OTAS launched an attack on Akeela's Beacon as retribution for being snubbed by the Argon Federation. Seen as an act of terrorism, the Federation was beginning to mount a response but it is clear that whatever response they had mustered failed as OTAS seized full control of their local Argon Sectors during the Great Dark.\n\nExpanded beyond simple corporate dealings, OTAS now operates as a full fledged nation with representatives from each sector on the board of directors, the scars of the hostile seizure seemingly erased.</t>
 	<t id="102">While still very much biologically human, thus still Argons, the citizens of OTAS have grown into their own distinct pseudo-corporate civilisation following the annexation of the Argon Colonies prior to the Gate Shutdown. Following reconnection, OTAS have been seen by many of the Commonwealth as a mixture of both the Argon and Terrans in ambition, technology, and temperment. Only time will tell if they continue to carve their own path or are ultimately brought back into the fold.</t>	
+	<t id="103">OTAS Capital Equipment Licence</t>
+	<t id="104">OTAS Capital Ship Licence</t>
+	<t id="105">Armaments Professional</t>
+	<t id="106">Security Specialist</t>
+	<t id="107">OTAS General Use Equipment Licence</t>
+	<t id="108">OTAS General Use Ship Licence</t>
+	<t id="109">OTAS Military Equipment Licence</t>
+	<t id="110">OTAS Military Ship Licence</t>
+	<t id="111">OTAS Police Licence</t>
+	<t id="112">OTAS Capital Ship Building Module Licence</t>
+	<t id="113">OTAS Ancillary Ship Building Module Licence</t>
+	<t id="114">OTAS Advanced Module Licence</t>
+	<t id="115">OTAS Basic Module Licence</t>
+	<t id="116">OTAS Intermediate Module Licence</t>
+	<t id="117">OTAS Trade Offer Subscription</t>
+	<t id="118">OTAS</t>
+	<t id="119">OTAS Ship Sale Contract</t>	
 	<!--TURRETS/WEAPONS-->
 	<t id="200">Hammer Heavy Torpedo Launcher</t>
 	<t id="201">Hammer Heavy Torpedo</t>
@@ -23,8 +40,9 @@
 	<t id="306">Size: SMALL\n Weapon Class: LAUNCHER\n\nThe Notus's modular side pods configured to hold and launch a variety of projectiles, including all dumbfires, guided, and torpedo missiles found within the current known Network.</t>	
 	<t id="307">Size: SMALL\n Weapon Class: HEAVY\n\nTimed detonation.\nThe Notus's modular side pods reconfigured to hold anti-capital bomb launchers, which are too large to fit on other S-sized craft, giving the Notus unique anti-capital capabilities.</t>
 	<!--STATION MODULES-->
-	<t id="400">{96000,100} Cross Connection Structure 01</t>	
+	<t id="400">{19530002,100} Cross Connection Structure 01</t>	
 	<t id="401">Cross 01</t>
+	<t id="402">{19530002,100} {20104,15801}(OTAS Stimulant Production)</t>		
 	<!--SHIPS-->
 	<t id="700">Boreas</t>
 	<t id="701">Auster</t>

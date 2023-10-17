@@ -6,6 +6,7 @@
 	<icon name="module_*" texture="extensions\otas_shippack\assets\fx\gui\textures\stationmodules\*.tga" height="256" width="256"/>	
 	<icon name="upgrade_*" texture="extensions\otas_shippack\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
 	<icon name="ship_xl_battleship" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_xl_battleship.tga" height="128" width="128"/>
+	<icon name="ship_l_destroyer" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_l_destroyer.tga" height="128" width="128"/>		
 	<icon name="ship_l_frigate" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_l_frigate.tga" height="128" width="128"/>
 	<icon name="ship_l_bomber" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_l_bomber.tga" height="128" width="128"/>		
 	<icon name="ship_m_bomber" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_m_bomber.tga" height="128" width="128"/>
