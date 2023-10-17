@@ -3,7 +3,7 @@
 	<macro name="ishield_otas_s_solano_macro" class="shieldgenerator">
 		<component ref="ishield_otas_s_solano"/>
 		<properties>
-			<identification name="{96000,911}"/>
+			<identification name="{19530002,911}"/>
 			<recharge max="160" rate="20" delay="0"/>
 			<hull integrated="1"/>
 		</properties>

@@ -3,7 +3,7 @@
 	<macro name="ishield_otas_s_venti_macro" class="shieldgenerator">
 		<component ref="ishield_otas_s_venti"/>
 		<properties>
-			<identification name="{96000,912}"/>
+			<identification name="{19530002,912}"/>
 			<recharge max="2225" rate="70" delay="0"/>
 			<hull integrated="1"/>
 		</properties>

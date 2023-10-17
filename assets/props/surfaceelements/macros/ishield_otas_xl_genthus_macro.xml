@@ -3,7 +3,7 @@
   <macro name="ishield_otas_xl_genthus_macro" class="shieldgenerator">
     <component ref="ishield_otas_xl_genthus" />
     <properties>
-	  <identification name="{96000,914}"/>
+	  <identification name="{19530002,914}"/>
       <recharge max="17912" rate="776" delay="0" />
       <hull integrated="1" />
     </properties>

@@ -3,7 +3,7 @@
   <macro name="ishield_otas_xl_andaman_macro" class="shieldgenerator">
     <component ref="ishield_otas_xl_andaman" />
     <properties>
-	  <identification name="{96000,915}"/>
+	  <identification name="{19530002,915}"/>
       <recharge max="118066" rate="1992" delay="0" />
       <hull integrated="1" />
     </properties>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
-	<component name="muzzle_otas_turret_xl_firestorm" class="bullet">
-		<source geometry="extensions\otas_shippack\assets\fx\weaponfx\muzzle_otas_turret_xl_firestorm_data"/>
+	<component name="impact_otas_turret_xl_firestorm" class="bullet">
+		<source geometry="extensions\otas_shippack\assets\fx\weaponfx\impact_otas_turret_xl_firestorm_data"/>
 		<layers>
 			<layer>
 				<waypoints/>

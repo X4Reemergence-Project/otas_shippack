@@ -3,7 +3,7 @@
 	<macro name="ishield_otas_l_aquilo_macro" class="shieldgenerator">
 		<component ref="ishield_otas_l_aquilo"/>
 		<properties>
-			<identification name="{96000,901}"/>
+			<identification name="{19530002,901}"/>
 			<recharge max="45281" rate="1406" delay="0"/>
 			<hull integrated="1"/>
 		</properties>

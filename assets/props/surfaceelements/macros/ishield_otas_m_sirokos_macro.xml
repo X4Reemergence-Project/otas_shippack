@@ -3,7 +3,7 @@
 	<macro name="ishield_otas_m_sirokos_macro" class="shieldgenerator">
 		<component ref="ishield_otas_m_sirokos"/>
 		<properties>
-			<identification name="{96000,906}"/>
+			<identification name="{19530002,906}"/>
 			<recharge max="29449" rate="557" delay="0"/>
 			<hull integrated="1"/>
 		</properties>

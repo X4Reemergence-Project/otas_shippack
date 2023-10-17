@@ -3,7 +3,7 @@
 	<macro name="turret_otas_l_hammer_macro" class="missileturret">
 		<component ref="turret_otas_l_hammer"/>
 		<properties>
-			<identification name="{96000,200}" basename="{96000,200}" shortname="{96000,200}" makerrace="otas" description="{96000,300}"/>
+			<identification name="{19530002,200}" basename="{19530002,200}" shortname="{19530002,200}" makerrace="otas" description="{19530002,300}"/>
 			<ammunition tags="hammer"/>
 			<bullet class="missile_guided_heavy_mk1_macro"/>
 			<rotationacceleration max="15"/>

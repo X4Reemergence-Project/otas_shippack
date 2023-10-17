@@ -3,7 +3,7 @@
 	<macro name="ishield_otas_s_auster_macro" class="shieldgenerator">
 		<component ref="ishield_otas_s_auster"/>
 		<properties>
-			<identification name="{96000,908}"/>
+			<identification name="{19530002,908}"/>
 			<recharge max="3325" rate="100" delay="0"/>
 			<hull integrated="1"/>
 		</properties>
