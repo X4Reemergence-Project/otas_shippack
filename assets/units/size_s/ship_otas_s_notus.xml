@@ -1745,13 +1745,13 @@
 					<rotation pitch="0" yaw="0" roll="0"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_02" tags="weapon small platformcollision notus">
+			<connection name="con_weapon_02" tags="weapon small platformcollision bomber ">
 				<offset>
 					<position x="6.23039" y="0.674928" z="4.56482"/>
 					<rotation pitch="0" yaw="0" roll="0"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_03" tags="weapon small platformcollision notus">
+			<connection name="con_weapon_03" tags="weapon small platformcollision bomber">
 				<offset>
 					<position x="-6.23039" y="0.674928" z="4.56482"/>
 					<rotation pitch="0" yaw="0" roll="180"/>
