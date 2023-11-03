@@ -4,7 +4,7 @@
 		<component ref="ishield_otas_l_astraeus"/>
 		<properties>
 			<identification name="{19530002,902}"/>
-			<recharge max="44842" rate="1392.58" delay="0"/>
+			<recharge max="30000" rate="950" delay="0"/>
 			<hull integrated="1"/>
 		</properties>
 	</macro>

@@ -180,19 +180,19 @@
 			<restriction licence="capitalship"/>
 			<owner faction="argon"/>
 		</ware>
+-->
 		<ware id="ship_otas_l_astraeus" name="{19530002,710}" description="{19530002,810}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="9675000" average="11368125" max="13061250" />
-			<production time="260" amount="1" method="default" name="{20206,101}">
+			<price min="5495057" average="5858890" max="6522724" />
+			<production time="100" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="energycells" amount="2280" />
-					<ware ware="hullparts" amount="10630" />
+				  <ware ware="energycells" amount="1000" />
+				  <ware ware="hullparts" amount="4050" />
 				</primary>
 			</production>
 			<component ref="ship_otas_l_astraeus_macro" amount="1"/>
 			<restriction licence="capitalship"/>
 			<owner faction="argon"/>
-		</ware>	
--->		
+		</ware>			
 		<ware id="ship_otas_l_boreas" name="{19530002,700}" description="{19530002,800}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="20995585" average="23775081" max="29554577" />
 			<production time="200" amount="1" method="default" name="{20206,101}">
