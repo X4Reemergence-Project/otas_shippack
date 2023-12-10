@@ -39,7 +39,7 @@ UI value mapping (analogously for negative values):
 		<licence type="station_gen_basic" 	name="{19530002,115}" minrelation="-0.01" price="0" />
 		<licence type="station_gen_intermediate" name="{19530002,116}" minrelation="0.01" precursor="ceremonyfriend" />
 		<licence type="tradesubscription" 	name="{19530002,117}" description="{20207,4002}" minrelation="0.1" precursor="ceremonyally" price="10000000" />
-		<licence type="shipsalecontract" 	name="{19530002,119}" description="{20207,9002}" minrelation="0.1" precursor="ceremonyally" price="1" tags="hidden" /> 		
+		<licence type="shipsalecontract" 	name="{19530002,119}" description="{20207,9002}" minrelation="0.1" precursor="ceremonyally" price="1" tags="hidden" /> 			
       </licences>
       <relations>
 		<relation faction="ministry" relation="0" />
