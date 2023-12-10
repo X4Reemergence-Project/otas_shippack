@@ -137,6 +137,9 @@
 		  <restriction licence="militaryequipment" />
 		  <use threshold="0" />
 		  <owner faction="argon" />
+		  <owner faction="court" />
+		  <owner faction="freesplit" />
+		  <owner faction="split" />		  
 		</ware>		
 		<ware id="weapon_otas_s_notus_bomb" name="{19530002,207}" description="{19530002,307}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 		  <price min="155460" average="168382" max="181304" />
@@ -151,6 +154,9 @@
 		  <restriction licence="militaryequipment" />
 		  <use threshold="0" />
 		  <owner faction="argon" />
+		  <owner faction="court" />
+		  <owner faction="freesplit" />
+		  <owner faction="split" />			  
 		</ware>		
 	</add>	
 	<!-- SHIPS -->  
