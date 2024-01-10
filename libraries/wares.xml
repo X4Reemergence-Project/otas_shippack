@@ -173,7 +173,6 @@
 		  <restriction licence="capitalship"/>
 		  <owner faction="argon" />	 		
 		</ware>
-<!--		
 		<ware id="ship_otas_l_aquilo" name="{19530002,702}" description="{19530002,802}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="10198750" average="11983531" max="13768312" />
 			<production time="260" amount="1" method="default" name="{20206,101}">
@@ -186,7 +185,6 @@
 			<restriction licence="capitalship"/>
 			<owner faction="argon"/>
 		</ware>
--->
 		<ware id="ship_otas_l_astraeus" name="{19530002,710}" description="{19530002,810}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="5495057" average="5858890" max="6522724" />
 			<production time="100" amount="1" method="default" name="{20206,101}">
