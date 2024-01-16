@@ -36,21 +36,7 @@
 	</add>	
 	<!--TURRETS-->
 	<add sel="//wares">	
-		<ware id="turret_otas_l_hammer" name="{19530002,200}" description="{19530002,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-		  <price min="134930" average="143170" max="151410"/>
-		  <production time="10" amount="1" method="default" name="{20206,101}">
-			<primary>
-			  <ware ware="advancedelectronics" amount="23"/>
-			  <ware ware="energycells" amount="56"/>
-			  <ware ware="turretcomponents" amount="38"/>
-			</primary>
-		  </production>
-		  <component ref="turret_otas_l_hammer_macro" amount="1"/>
-		  <restriction licence="militaryequipment"/>
-		  <use threshold="0"/>
-		  <owner faction="argon"/>
-		</ware>
-		<ware id="missile_otas_l_hammer" name="{19530002,201}" description="{19530002,301}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
+		<ware id="missile_otas_l_anemoi" name="{19530002,201}" description="{19530002,301}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
 		  <price min="71122" average="80821" max="90520" />
 		  <production time="3" amount="1" method="default" name="{20206,101}">
 			<primary>
@@ -59,7 +45,7 @@
 			  <ware ware="smartchips" amount="45"/>
 			</primary>
 		  </production>
-		  <component ref="missile_otas_l_hammer_macro" amount="1"/>
+		  <component ref="missile_otas_l_anemoi_macro" amount="1"/>
 		  <container ref="sm_gen_pickup_equipment_01_macro"/>
 		  <restriction licence="generaluseequipment"/>
 		  <use threshold="0"/>
@@ -157,7 +143,21 @@
 		  <owner faction="court" />
 		  <owner faction="freesplit" />
 		  <owner faction="split" />			  
-		</ware>		
+		</ware>	
+		<ware id="weapon_otas_l_missilefrigate" name="{19530002,200}" description="{19530002,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+		  <price min="150000" average="200000" max="250000" />
+		  <production time="10" amount="1" method="default" name="{20206,101}">
+			<primary>
+			  <ware ware="advancedelectronics" amount="19" />
+			  <ware ware="energycells" amount="42" />
+			  <ware ware="weaponcomponents" amount="52" />
+			</primary>
+		  </production>
+		  <component ref="weapon_otas_l_missilefrigate_macro" amount="1" />
+		  <restriction licence="capitalequipment" />
+		  <use threshold="0" />
+		  <owner faction="argon" />		  
+		</ware>			
 	</add>	
 	<!-- SHIPS -->  
 	<add sel="//wares">
@@ -172,7 +172,7 @@
 		  <component ref="ship_otas_xl_tempest_macro" amount="1"/>
 		  <restriction licence="capitalship"/>
 		  <owner faction="argon" />	 		
-		</ware>
+		</ware>		
 		<ware id="ship_otas_l_aquilo" name="{19530002,702}" description="{19530002,802}" group="ships_argon" transport="ship" volume="1" tags="ship">
 			<price min="10198750" average="11983531" max="13768312" />
 			<production time="260" amount="1" method="default" name="{20206,101}">
@@ -194,7 +194,7 @@
 				</primary>
 			</production>
 			<component ref="ship_otas_l_astraeus_macro" amount="1"/>
-			<restriction licence="capitalship"/>
+			<restriction licence="militaryship"/>
 			<owner faction="argon"/>
 		</ware>			
 		<ware id="ship_otas_l_boreas" name="{19530002,700}" description="{19530002,800}" group="ships_argon" transport="ship" volume="1" tags="ship">

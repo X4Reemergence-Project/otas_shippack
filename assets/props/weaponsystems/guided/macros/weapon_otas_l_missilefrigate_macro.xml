@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="weapon_otas_l_missilefrigate_macro" class="missilelauncher">
+    <component ref="weapon_otas_l_missilefrigate" />
+    <properties>
+      <identification name="{19530002,200}" basename="{19530002,200}" shortname="{19530002,200}" description="{19530002,300}" makerrace="otas" />
+      <ammunition tags="anemoi" />
+      <bullet class="missile_otas_l_anemoi_macro" />
+      <reload />
+      <hull max="1001" hittable="0" />
+    </properties>
+  </macro>
+</macros>

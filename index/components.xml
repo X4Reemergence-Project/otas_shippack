@@ -40,12 +40,12 @@
 	<entry name="ishield_otas_s_venti" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_s_venti"/>		
 	<!--TURRETS/WEAPONS-->
 	<entry name="turret_otas_xl_firestorm" value="extensions\otas_shippack\assets\props\weaponsystems\capital\turret_otas_xl_firestorm" />
-	<entry name="turret_otas_l_hammer" value="extensions\otas_shippack\assets\props\weaponsystems\guided\turret_otas_l_hammer"/>	
 	<entry name="turret_otas_l_palc" value="extensions\otas_shippack\assets\props\weaponsystems\energy\turret_otas_l_palc"/>		
 	<entry name="weapon_otas_s_gatling" value="extensions\otas_shippack\assets\props\weaponsystems\heavy\weapon_otas_s_gatling"/>
 	<entry name="weapon_otas_l_destroyer" value="extensions\otas_shippack\assets\props\weaponsystems\heavy\weapon_otas_l_destroyer"/>	
 	<entry name="weapon_otas_s_notus_launcher" value="extensions\otas_shippack\assets\props\weaponsystems\guided\weapon_otas_s_notus_launcher"/>
-	<entry name="weapon_otas_s_notus_bomb" value="extensions\otas_shippack\assets\props\weaponsystems\heavy\weapon_otas_s_notus_bomb"/>	
+	<entry name="weapon_otas_s_notus_bomb" value="extensions\otas_shippack\assets\props\weaponsystems\heavy\weapon_otas_s_notus_bomb"/>
+	<entry name="weapon_otas_l_missilefrigate" value="extensions\otas_shippack\assets\props\weaponsystems\guided\weapon_otas_l_missilefrigate"/>	
 	<!--MISC.ITEMS-->
 	<entry name="dock_gen_xs_ship_flat" value="extensions\otas_shippack\assets\props\surfaceelements\dock_gen_xs_ship_flat" />
 	<entry name="dockingbay_flat_m_01" value="extensions\otas_shippack\assets\structures\dock\dockingbay_flat_m_01" />
@@ -54,7 +54,7 @@
 	<entry name="bullet_otas_turret_xl_firestorm" value="extensions\otas_shippack\assets\fx\weaponfx\bullet_otas_turret_xl_firestorm"/>		
 	<entry name="impact_otas_turret_xl_firestorm" value="extensions\otas_shippack\assets\fx\weaponfx\impact_otas_turret_xl_firestorm"/>
 	<entry name="muzzle_otas_turret_xl_firestorm" value="extensions\otas_shippack\assets\fx\weaponfx\muzzle_otas_turret_xl_firestorm"/>
-	<entry name="missile_otas_l_hammer" value="extensions\otas_shippack\assets\props\weaponsystems\missile\missile_otas_l_hammer"/>
+	<entry name="missile_otas_l_anemoi" value="extensions\otas_shippack\assets\props\weaponsystems\missile\missile_otas_l_anemoi"/>
 	<entry name="bullet_otas_turret_l_palc" value="extensions\otas_shippack\assets\fx\weaponfx\bullet_otas_turret_l_palc"/>
 	<entry name="impact_otas_turret_l_palc" value="extensions\otas_shippack\assets\fx\weaponfx\impact_otas_turret_l_palc"/>
 	<entry name="muzzle_otas_turret_l_palc" value="extensions\otas_shippack\assets\fx\weaponfx\muzzle_otas_turret_l_palc"/>

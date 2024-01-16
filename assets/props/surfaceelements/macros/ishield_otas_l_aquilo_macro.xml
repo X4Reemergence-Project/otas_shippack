@@ -4,7 +4,7 @@
 		<component ref="ishield_otas_l_aquilo"/>
 		<properties>
 			<identification name="{19530002,901}"/>
-			<recharge max="45281" rate="1406" delay="0"/>
+			<recharge max="20000" rate="900" delay="0"/>
 			<hull integrated="1"/>
 		</properties>
 	</macro>
