@@ -23,8 +23,8 @@
 	<t id="118">OTAS</t>
 	<t id="119">OTAS Ship Sale Contract</t>	
 	<!--TURRETS/WEAPONS-->
-	<t id="200">Hammer Heavy Torpedo Launcher</t>
-	<t id="201">Hammer Heavy Torpedo</t>
+	<t id="200">Anemoi Heavy Torpedo Launcher</t>
+	<t id="201">Anemoi Heavy Torpedo</t>
 	<t id="202">Phased Array Laser Cannon</t>		
 	<t id="203">Firestorm Artillery</t>
 	<t id="204">\033#97e19b23#SH\033X  M/AM Barrage Accelerator</t>		
@@ -32,8 +32,8 @@
 	<t id="206">\033#95e03b29#BMB\033X\ Multi-Missile Launch Array</t>
 	<t id="207">\033#95e03b29#BMB\033X\ Cluster Bomb Launcher</t>	
 	<!--TURRETS/WEAPONS DESCRIPTIONS-->
-	<t id="300">Designed specifically for the Aquilo, this launcher is the only platform capable of deploying the OTAS Hammer Heavy Torpedo.</t>
-	<t id="301">One of OTAS' signature unique weapons, the modern Hammer Heavy Torpedo is a much-improved descendant of its pre-Shutdown variant with greatly improved lethality. \n\nUnlike most Commonwealth weapons of the type, the Hammer features advanced target tracking and maneuvering systems, giving it a powerful degree of agility that can take unprepared targets by surprise.</t>		
+	<t id="300">Designed specifically for the Aquilo, this launcher is the only platform capable of deploying the OTAS Anemoi Heavy Torpedo.</t>
+	<t id="301">One of OTAS' signature unique weapons, the modern Anemoi Heavy Torpedo is a much-improved descendant of its pre-Shutdown variant with greatly improved lethality. \n\nUnlike Commonwealth's most similar missiles of size, the Anemoi is a deadly combination of advanced targeting systems and lethal payload which has taken many unprepared targets by surprise.</t>		
 	<t id="302">Rather than traditional amplification oscillators and focusing chambers found on standard Commonwealth high-output beam weaponry, the OTAS Phased Array Laser Cannon uses an array of quickly-positionable tuning mirrors to rapidly concentrate and focus energy into a cohesive beam. While the PALC has significantly reduced raw power output and range compared to its peers, the design features much faster turret tracking and a shorter cycle time which lets it rapidly re-engage new targets with near-perfect accuracy, making it a deadly weapon against fighters.</t>	
 	<t id="303">\033#95e03b29#XL Turret\033X\ TEMPEST ONLY \nThe Firestorm Artillery is the result of a decades-long OTAS effort to replicate the Terran Point Singularity Projector, infamous for savaging even the high-tech OTAS-supported Argon Navy during the Terran Conflict era. Despite years of research and nigh-unlimited resources poured into the project, OTAS was ultimately forced to conclude that replicating and deploying the Terran technology in a viable manner was impossible due to the unique high-energy power architcture of Terran ships and systems. In the end, an alternative route was chosen- rather than imitate the Point Singularity Projector itself, OTAS would simply aim to replicate the weapon's destructive power.\n\nThus a surprisingly low-tech solution was found: by converting Firestorm torpedo warheads for use in ballistic shells fired from enormous oversized kinetic accelerators, OTAS could field a heavy siege weapon with superb range and devastating destructive potential. However, the design did require several compromises: the sheer size of the turret and munitions handling systems means it is slow to acquire targets and can only be mounted on specially designed hardpoints such as those on Tempest, while the relative sensitivity of the warhead payload enforces a low projectile velocity and further limits its ability to engage small or moving targets.</t>
 	<t id="304">Size: SMALL\n Weapon Class: HEAVY\n\nDeveloped from studying salvaged Terran Matter/Antimatter weapons technology, this fighter-class weapon fires a torrent of small M/AM warheads that can devastate targets in short order. However, the small scale of the warheads causes them to suffer faster payload containment destabilization, resulting in a severely limited effective range.</t>	
