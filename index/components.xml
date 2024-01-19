@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
   <add sel="/index">
+	<!--STATIONS/MODULES-->
+	<entry name="struct_otas_cross_01" value="extensions\otas_shippack\assets\structures\connectionmodules\struct_otas_cross_01"/> 
+	<entry name="prod_otas_stimulants" value="extensions\otas_shippack\assets\structures\production\prod_otas_stimulants"/> 	  
 	<!--SHIPS-->
 	<entry name="ship_otas_xl_tempest" value="extensions\otas_shippack\assets\units\size_xl\ship_otas_xl_tempest"/>	
 	<entry name="ship_otas_xl_andaman" value="extensions\otas_shippack\assets\units\size_xl\ship_otas_xl_andaman"/>		
