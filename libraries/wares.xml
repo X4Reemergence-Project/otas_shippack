@@ -5,35 +5,6 @@
 		<owner faction="otas"/>
 	</add>
 -->		
-	<!--STATION MODULES-->
-	<add sel="//wares">  
-      <ware id="struct_otas_cross_01" name="{19530002,400}" description="{19530002,400}" transport="container" volume="1" tags="module">
-		<price min="95300" average="106824" max="118348" />
-		<production time="47" amount="1" method="default" name="{20206,101}">
-          <primary>
-            <ware ware="claytronics" amount="12" />
-            <ware ware="energycells" amount="24" />
-            <ware ware="hullparts" amount="44" />
-          </primary>
-        </production>
-        <component ref="struct_otas_cross_01_macro" amount="1" />
-        <restriction licence="station_gen_basic" />
-        <owner faction="argon" />
-      </ware>
-      <ware id="module_otas_prod_stimulants" name="{19530002,402}" description="{20104,15802}" transport="container" volume="1" tags="module">
-	    <price min="1735171" average="2041378" max="2347585" />
-        <production time="787" amount="1" method="default" name="{20206,901}">
-          <primary>
-            <ware ware="claytronics" amount="319" />
-            <ware ware="energycells" amount="638" />
-            <ware ware="hullparts" amount="1168" />
-          </primary>
-        </production>
-        <component ref="prod_otas_stimulants_macro" />
-        <restriction licence="station_gen_basic" />
-        <owner faction="argon" />
-      </ware>	
-	</add>	
 	<!--TURRETS-->
 	<add sel="//wares">	
 		<ware id="missile_otas_l_anemoi" name="{19530002,201}" description="{19530002,301}" group="missiles" transport="equipment" volume="1" tags="equipment missile">
@@ -81,21 +52,7 @@
 		</ware>			
 	</add>
 	<!--WEAPONS-->
-	<add sel="//wares">	
-		<ware id="weapon_otas_l_missilefrigate" name="{19530002,200}" description="{19530002,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-		  <price min="150000" average="200000" max="250000" />
-		  <production time="10" amount="1" method="default" name="{20206,101}">
-			<primary>
-			  <ware ware="advancedelectronics" amount="19" />
-			  <ware ware="energycells" amount="42" />
-			  <ware ware="weaponcomponents" amount="52" />
-			</primary>
-		  </production>
-		  <component ref="weapon_otas_l_missilefrigate_macro" amount="1" />
-		  <restriction licence="capitalequipment" />
-		  <use threshold="0" />
-		  <owner faction="argon" />		  
-		</ware>		
+	<add sel="//wares">		
 		<ware id="weapon_otas_l_destroyer" name="{19530002,205}" description="{19530002,305}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 		  <price min="95460" average="108382" max="121304" />
 		  <production time="10" amount="1" method="default" name="{20206,101}">
@@ -109,6 +66,20 @@
 		  <restriction licence="militaryequipment" />
 		  <use threshold="0" />
 		  <owner faction="argon"/>	  
+		</ware>
+		<ware id="weapon_otas_l_missilefrigate" name="{19530002,200}" description="{19530002,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+		  <price min="150000" average="200000" max="250000" />
+		  <production time="10" amount="1" method="default" name="{20206,101}">
+			<primary>
+			  <ware ware="advancedelectronics" amount="19" />
+			  <ware ware="energycells" amount="42" />
+			  <ware ware="weaponcomponents" amount="52" />
+			</primary>
+		  </production>
+		  <component ref="weapon_otas_l_missilefrigate_macro" amount="1" />
+		  <restriction licence="capitalequipment" />
+		  <use threshold="0" />
+		  <owner faction="argon" />		  
 		</ware>
 		<ware id="weapon_otas_s_gatling" name="{19530002,204}" description="{19530002,304}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 		  <price min="95460" average="108382" max="121304" />
