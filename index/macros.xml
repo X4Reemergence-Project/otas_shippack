@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
   <add sel="/index">
-	<!--STATIONS/MODULES-->	
-	<entry name="struct_otas_cross_01_macro" value="extensions\otas_shippack\assets\structures\connectionmodules\macros\struct_otas_cross_01_macro"/>
-	<entry name="prod_otas_stimulants_macro" value="extensions\otas_shippack\assets\structures\production\macros\prod_otas_stimulants_macro"/>	
 	<!--SHIPS-->
 	<entry name="ship_otas_xl_tempest_macro" value="extensions\otas_shippack\assets\units\size_xl\macros\ship_otas_xl_tempest_macro"/>
 	<entry name="ship_otas_xl_andaman_macro" value="extensions\otas_shippack\assets\units\size_xl\macros\ship_otas_xl_andaman_macro"/>	
