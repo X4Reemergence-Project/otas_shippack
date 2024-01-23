@@ -5,10 +5,10 @@
 		<properties>
 			<identification name="{19530002,201}" basename="{19530002,201}" description="{19530002,301}"/>
 			<ammunition value="1"/>
-			<missile amount="1" barrelamount="4" lifetime="30" range="64000" angle="25" guided="1" icon="hud_ms_torpedo_heavy_mk1" retarget="1" tags="anemoi"/>
-			<explosiondamage value="40000" />
+			<missile amount="1" barrelamount="4" lifetime="8" range="31000" guided="1" icon="hud_ms_torpedo_heavy_mk1" retarget="0" tags="anemoi"/>
+			<explosiondamage value="22000" />
 			<reload time="35"/>
-			<hull max="176"/>
+			<hull max="126"/>
 			<effects>
 				<explosion ref="explosion_missile_cruise"/>
 				<launch ref="muzzle_gen_cruise"/>
@@ -19,7 +19,7 @@
 				<inertia pitch="11" yaw="12" roll="11" />
 				<drag forward="0.025" reverse="60" horizontal="50" vertical="50" pitch="22" yaw="22" roll="22" />
 			</physics>
-			<lock time="2" range="30000"/>
+			<lock time="2" range="28000"/>
 		</properties>
 		<connections>
 			<connection ref="con_engine01">

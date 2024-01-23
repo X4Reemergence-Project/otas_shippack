@@ -372,7 +372,7 @@
         </offset>
       </connection>
 
-<!-- side launchers - removed because L ships don't fucking work with non-turret missile launchers (AI does not target stations). Workaround solution below.
+<!-- side launchers - removed because L ships don't fucking work with non-turret missile launchers (AI does not target stations)
 
 		<connection name="con_weapon_01" tags="component weapon large aquilo ">
 			<offset>
@@ -387,15 +387,10 @@
 		</connection> -->
 		
 <!-- VLS launchers -->
-			<connection name="vls_launcher01" group="vls_launcher" tags="turret large turret_otas_l_missilefrigate ">
+			<connection group="VLS_launcher" name="con_weapon_01" tags="turret large turret_otas_l_missilefrigate ">
 				<offset>
 					<position x="0" y="24.6057" z="168.177"/>
 					<rotation yaw="0" pitch="-7.5" roll="0"/>
-				</offset>
-			</connection>
-			<connection name="rangefinder01" tags="weapon small rangefinder_28km ">
-				<offset>
-					<position x="0" y="-24.7421" z="341.309"/>
 				</offset>
 			</connection>
 
