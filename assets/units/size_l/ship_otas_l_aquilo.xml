@@ -188,7 +188,23 @@
           </part>
         </parts>
       </connection>
-
+      <connection name="Connection04" tags="detail_xl forceoutline nocollision part ">
+        <parts>
+          <part name="detail_xl">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="71.49744" y="5.301544" z="46.24496" />
+              <center x="0" y="-22.24553" z="176.6815" />
+            </size>
+          </part>
+        </parts>
+      </connection>
 			
 			<connection name="con_playercontrol" tags="playercontrol">
 				<offset>
@@ -356,7 +372,8 @@
         </offset>
       </connection>
 
-<!-- launchers -->
+<!-- side launchers - removed because L ships don't fucking work with non-turret missile launchers (AI does not target stations)
+
 		<connection name="con_weapon_01" tags="component weapon large aquilo ">
 			<offset>
 				<position x="70.0051" y="-22.2461" z="130.437"/>
@@ -367,7 +384,15 @@
 				<position x="-70.0051" y="-22.2461" z="130.437"/>
 				<rotation pitch="0" yaw="0" roll="180" />
 			</offset>
-		</connection>
+		</connection> -->
+		
+<!-- VLS launchers -->
+			<connection group="VLS_launcher" name="con_weapon_01" tags="turret large turret_otas_l_missilefrigate ">
+				<offset>
+					<position x="0" y="24.6057" z="168.177"/>
+					<rotation yaw="0" pitch="-7.5" roll="0"/>
+				</offset>
+			</connection>
 
 <!-- countermeasures -->
 			<connection name="con_countermeasures_01" tags="countermeasures ">

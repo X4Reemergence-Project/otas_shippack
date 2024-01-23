@@ -51,6 +51,20 @@
 		  <use threshold="0"/>
 		  <owner faction="argon"/>
 		</ware>
+		<ware id="turret_otas_l_missilefrigate" name="{19530002,200}" description="{19530002,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+		  <price min="150000" average="200000" max="250000" />
+		  <production time="10" amount="1" method="default" name="{20206,101}">
+			<primary>
+			  <ware ware="advancedelectronics" amount="19" />
+			  <ware ware="energycells" amount="42" />
+			  <ware ware="weaponcomponents" amount="52" />
+			</primary>
+		  </production>
+		  <component ref="turret_otas_l_missilefrigate_macro" amount="1" />
+		  <restriction licence="capitalequipment" />
+		  <use threshold="0" />
+		  <owner faction="argon" />		  
+		</ware>
 		<ware id="turret_otas_l_palc" name="{19530002,202}" description="{19530002,302}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
 		  <price min="134930" average="143170" max="151410"/>
 			<production time="10" amount="1" method="default" name="{20206,101}">
@@ -95,20 +109,6 @@
 		  <restriction licence="militaryequipment" />
 		  <use threshold="0" />
 		  <owner faction="argon"/>	  
-		</ware>
-		<ware id="weapon_otas_l_missilefrigate" name="{19530002,200}" description="{19530002,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-		  <price min="150000" average="200000" max="250000" />
-		  <production time="10" amount="1" method="default" name="{20206,101}">
-			<primary>
-			  <ware ware="advancedelectronics" amount="19" />
-			  <ware ware="energycells" amount="42" />
-			  <ware ware="weaponcomponents" amount="52" />
-			</primary>
-		  </production>
-		  <component ref="weapon_otas_l_missilefrigate_macro" amount="1" />
-		  <restriction licence="capitalequipment" />
-		  <use threshold="0" />
-		  <owner faction="argon" />		  
 		</ware>
 		<ware id="weapon_otas_s_gatling" name="{19530002,204}" description="{19530002,304}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 		  <price min="95460" average="108382" max="121304" />

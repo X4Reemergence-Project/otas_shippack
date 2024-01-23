@@ -45,7 +45,7 @@
 	<entry name="weapon_otas_l_destroyer" value="extensions\otas_shippack\assets\props\weaponsystems\heavy\weapon_otas_l_destroyer"/>	
 	<entry name="weapon_otas_s_notus_launcher" value="extensions\otas_shippack\assets\props\weaponsystems\guided\weapon_otas_s_notus_launcher"/>
 	<entry name="weapon_otas_s_notus_bomb" value="extensions\otas_shippack\assets\props\weaponsystems\heavy\weapon_otas_s_notus_bomb"/>
-	<entry name="weapon_otas_l_missilefrigate" value="extensions\otas_shippack\assets\props\weaponsystems\guided\weapon_otas_l_missilefrigate"/>	
+	<entry name="turret_otas_l_missilefrigate" value="extensions\otas_shippack\assets\props\weaponsystems\guided\turret_otas_l_missilefrigate"/>	
 	<!--MISC.ITEMS-->
 	<entry name="dock_gen_xs_ship_flat" value="extensions\otas_shippack\assets\props\surfaceelements\dock_gen_xs_ship_flat" />
 	<entry name="dockingbay_flat_m_01" value="extensions\otas_shippack\assets\structures\dock\dockingbay_flat_m_01" />

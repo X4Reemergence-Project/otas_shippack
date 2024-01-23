@@ -46,7 +46,7 @@
 	<entry name="weapon_otas_s_notus_launcher_macro" value="extensions\otas_shippack\assets\props\weaponsystems\guided\macros\weapon_otas_s_notus_launcher_macro"/>	
 	<entry name="weapon_otas_s_notus_bomb_macro" value="extensions\otas_shippack\assets\props\weaponsystems\heavy\macros\weapon_otas_s_notus_bomb_macro"/>
 	<entry name="bullet_otas_s_notus_bomb_macro" value="extensions\otas_shippack\assets\fx\weaponfx\macros\bullet_otas_s_notus_bomb_macro"/>
-	<entry name="weapon_otas_l_missilefrigate_macro" value="extensions\otas_shippack\assets\props\weaponsystems\guided\macros\weapon_otas_l_missilefrigate_macro"/>	
+	<entry name="turret_otas_l_missilefrigate_macro" value="extensions\otas_shippack\assets\props\weaponsystems\guided\macros\turret_otas_l_missilefrigate_macro"/>	
 	<!--MISC.ITEMS-->
 	<entry name="dock_gen_xs_ship_flat_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\dock_gen_xs_ship_flat_macro" />
 	<entry name="dockingbay_flat_m_01_macro" value="extensions\otas_shippack\assets\structures\dock\macros\dockingbay_flat_m_01_macro" />
