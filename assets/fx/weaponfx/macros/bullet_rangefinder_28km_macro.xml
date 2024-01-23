@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="bullet_rangefinder_28km_macro" class="bullet">
+    <component ref="bullet_rangefinder_28km" />
+    <properties>
+      <ammunition value="1" reload="60" />
+      <bullet speed="28000" lifetime="1" amount="1" barrelamount="1" icon="hud_ms_torpedo_heavy_mk1" />
+      <heat value="1" />
+      <reload time="0" />
+      <damage value= "1" hull="0"  repair="0">
+      </damage>
+      <effects />
+      <sounds />
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>
