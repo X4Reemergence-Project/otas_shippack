@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <components>
 	<component name="bullet_rangefinder_28km" class="bullet">
-		<source geometry="assets\fx\weaponFx\bullet_kha_s_beam_01_data"/>
+		<source geometry="assets\fx\weaponFx\bullet_spacesuit_repairlaser_01_mk1_data"/>
 		<layers>
 			<layer>
 				<waypoints/>
