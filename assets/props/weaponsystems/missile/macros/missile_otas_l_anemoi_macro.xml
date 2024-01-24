@@ -17,7 +17,7 @@
 			<countermeasure resilience="0.9"/>
 			<physics mass="16">
 				<inertia pitch="11" yaw="12" roll="11" />
-				<drag forward="0.025" reverse="60" horizontal="50" vertical="50" pitch="22" yaw="22" roll="22" />
+				<drag forward="0.05" reverse="60" horizontal="50" vertical="50" pitch="22" yaw="22" roll="22" />
 			</physics>
 			<lock time="2" range="30000"/>
 		</properties>
