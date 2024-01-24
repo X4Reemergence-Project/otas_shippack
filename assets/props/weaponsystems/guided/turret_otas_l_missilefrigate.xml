@@ -184,22 +184,24 @@
 
 			<connection name="con_guided_01" tags="rocket " parent="detail_xl_gun">
 				<offset>
-					<position x="6.642334" y="4.52349" z="22.66009"/>
+					<position x="30" y="0" z="0"/>
 				</offset>
 			</connection>
 			<connection name="con_guided_02" tags="rocket " parent="detail_xl_gun">
 				<offset>
-					<position x="-6.755759" y="4.52349" z="22.6601"/>
+					<position x="-30" y="0" z="0"/>
 				</offset>
 			</connection>
 			<connection name="con_guided_03" tags="rocket " parent="detail_xl_gun">
 				<offset>
-					<position x="9.1005" y="0.1768322" z="22.66009"/>
+					<position x="10" y="0" z="0"/>
+					<rotation pitch="0" yaw="25" roll="0" />
 				</offset>
 			</connection>
 			<connection name="con_guided_04" tags="rocket " parent="detail_xl_gun">
 				<offset>
-					<position x="-9.595232" y="0.1768322" z="22.66009"/>
+					<position x="-10" y="0" z="0"/>
+					<rotation pitch="0" yaw="-25" roll="0" />
 				</offset>
 			</connection>
 
