@@ -195,13 +195,13 @@
 			<connection name="con_guided_03" tags="rocket " parent="detail_xl_gun">
 				<offset>
 					<position x="10" y="0" z="0"/>
-					<rotation pitch="0" yaw="25" roll="0" />
+					<rotation pitch="0" yaw="45" roll="0" />
 				</offset>
 			</connection>
 			<connection name="con_guided_04" tags="rocket " parent="detail_xl_gun">
 				<offset>
 					<position x="-10" y="0" z="0"/>
-					<rotation pitch="0" yaw="-25" roll="0" />
+					<rotation pitch="0" yaw="-45" roll="0" />
 				</offset>
 			</connection>
 
