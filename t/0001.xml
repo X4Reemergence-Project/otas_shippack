@@ -31,7 +31,7 @@
 	<t id="205">\033#95e03b29#LM\033X M/AM Mass Driver</t>	
 	<t id="206">\033#95e03b29#BMB\033X\ Multi-Missile Launch Array</t>
 	<t id="207">\033#95e03b29#BMB\033X\ Cluster Bomb Launcher</t>
-	<t id="208">Rangefinder - 28km</t>	
+	<t id="208">Target Ranging and Tracking Designator - 28km</t>	
 	<!--TURRETS/WEAPONS DESCRIPTIONS-->
 	<t id="300">Designed specifically for the Aquilo, this launcher is the only platform capable of deploying the OTAS Anemoi Cruise Missile.</t>
 	<t id="301">Properties: Cruise missile | Guided | Swarm | Target-seeking \nAI Launch Range: 30 km \n\nOne of OTAS' signature unique weapons, the modern Anemoi Cruise Missile is a much-improved descendant of its pre-Shutdown variant with greatly improved lethality. \n\nUnlike Commonwealth's most similar missiles of size, the Anemoi is a deadly combination of advanced targeting systems, allowing achieving target lock as far away as 30km, and lethal, quad-missile payload, which has taken many unprepared targets by surprise and has been noted to be extremely difficult to intercept.</t>		
