@@ -20,7 +20,7 @@
         <!-- Geometry Light -->
         <element id="3" ref="impact_light_orange_macro" forkeffect="none" duration="0.25" minscale="3" maxscale="3" fadeout="0.25" forklod="megaeffect"></element>
         <element id="4" ref="effect_dummy_macro" forkeffect="none" duration="2.5" forklod="none">
-          <areadamage range="2500" falloff="1" duration="1" />
+          <areadamage range="600" falloff="1" duration="1" />
         </element>
         <!-- Sound -->
         <element id="5" ref="effect_dummy_macro" forkeffect="none" duration="3.0" forklod="largeeffect">
