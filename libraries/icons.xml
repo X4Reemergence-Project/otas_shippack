@@ -5,11 +5,11 @@
 	<icon name="ship_otas_*" texture="extensions\otas_shippack\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>	
 	<icon name="upgrade_*" texture="extensions\otas_shippack\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
 	<icon name="ship_xl_battleship_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_xl_battleship.tga" height="128" width="128"/>
-	<icon name="ship_l_cruiser_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_l_cruiser.tga" height="128" width="128"/>		
+	<icon name="ship_l_cruiser_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_l_cruiser.png" height="128" width="128"/>		
 	<icon name="ship_l_frigate_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_l_frigate.tga" height="128" width="128"/>
 	<icon name="ship_l_bomber_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_l_bomber.tga" height="128" width="128"/>		
 	<icon name="ship_m_bomber_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_m_bomber.tga" height="128" width="128"/>
-	<icon name="ship_s_bomber_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_s_bomber.tga" height="128" width="128"/>		
+	<icon name="ship_s_bomber_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_s_bomber.png" height="128" width="128"/>		
 	<icon name="ship_s_heavyfighter_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_s_heavyfighter.tga" height="128" width="128"/>
 	<icon name="ship_s_scout_otas" texture="extensions\otas_shippack\assets\fx\gui\textures\shipicon\ship_s_scout.tga" height="128" width="128"/>	
   </add>
