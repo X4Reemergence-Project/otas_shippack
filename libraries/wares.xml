@@ -97,17 +97,17 @@
 	<!--WEAPONS-->
 	<add sel="//wares">		
 		<ware id="weapon_otas_l_destroyer" name="{19530002,205}" description="{19530002,305}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-		  <price min="95460" average="108382" max="121304" />
+		  <price min="1300603" average="1430663" max="1560723" />
 		  <production time="10" amount="1" method="default" name="{20206,101}">
 			<primary>
-			  <ware ware="advancedelectronics" amount="6" />
-			  <ware ware="energycells" amount="21" />
-			  <ware ware="weaponcomponents" amount="13" />
+			  <ware ware="advancedelectronics" amount="62" />
+			  <ware ware="energycells" amount="221" />
+			  <ware ware="weaponcomponents" amount="96" />
 			</primary>
 		  </production>
 		  <component ref="weapon_otas_l_destroyer_macro" />
 		  <restriction licence="militaryequipment" />
-		  <use threshold="0" />
+		  <use threshold="0.9" />
 		  <owner faction="argon"/>	  
 		</ware>
 		<ware id="weapon_otas_s_gatling" name="{19530002,204}" description="{19530002,304}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -121,7 +121,7 @@
 		  </production>
 		  <component ref="weapon_otas_s_gatling_macro" />
 		  <restriction licence="militaryequipment" />
-		  <use threshold="0" />
+		  <use threshold="0.9" />
 		  <owner faction="argon"/>	  
 		</ware>			
 		<ware id="weapon_otas_s_notus_launcher" name="{19530002,206}" description="{19530002,306}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
