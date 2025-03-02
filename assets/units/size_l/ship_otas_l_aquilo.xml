@@ -371,23 +371,9 @@
           <quaternion qx="0.9612617" qy="0" qz="0" qw="-0.2756374" />
         </offset>
       </connection>
-
-<!-- side launchers - removed because L ships don't fucking work with non-turret missile launchers (AI does not target stations)
-
-		<connection name="con_weapon_01" tags="component weapon large aquilo ">
-			<offset>
-				<position x="70.0051" y="-22.2461" z="130.437"/>
-			</offset>
-		</connection>
-		<connection name="con_weapon_02" tags="component weapon large aquilo ">
-			<offset>
-				<position x="-70.0051" y="-22.2461" z="130.437"/>
-				<rotation pitch="0" yaw="0" roll="180" />
-			</offset>
-		</connection> -->
-		
+	
 <!-- VLS launchers -->
-			<connection group="VLS_launcher" name="con_weapon_01" tags="turret large turret_otas_l_missilefrigate ">
+			<connection group="VLS_launcher" name="con_weapon_01" tags="noshield turret large turret_otas_l_missilefrigate ">
 				<offset>
 					<position x="0" y="24.6057" z="168.177"/>
 					<rotation yaw="0" pitch="-7.5" roll="0"/>
