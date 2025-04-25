@@ -1739,7 +1739,7 @@
 					<position x="0" y="0" z="0"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_01" tags="weapon small standard missile platformcollision combat">
+			<connection name="con_weapon_01" tags="weapon small standard missile highpower platformcollision combat">
 				<offset>
 					<position x="0" y="-1.59929" z="6.60469"/>
 					<rotation pitch="0" yaw="0" roll="0"/>
