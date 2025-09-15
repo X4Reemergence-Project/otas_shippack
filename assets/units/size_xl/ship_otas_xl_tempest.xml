@@ -755,19 +755,19 @@
 
 <!-- xl_turrets -->
 
-      <connection name="con_turret_xl_03" group="xl_turrets" tags="turret extralarge standard hittable  combat">
+      <connection name="con_turret_xl_03" group="xl_turrets" tags="turret extralarge standard hittable ship_otas_xl_tempest combat">
         <offset>
           <position x="0" y="142.5587" z="140.7759" />
           <quaternion qx="0.003879246" qy="0" qz="2.053737e-08" qw="-0.9999925" />
         </offset>
       </connection>
-      <connection name="con_turret_xl_02" group="xl_turrets" tags="turret extralarge standard hittable  combat">
+      <connection name="con_turret_xl_02" group="xl_turrets" tags="turret extralarge standard hittable ship_otas_xl_tempest combat">
         <offset>
           <position x="0" y="133.0467" z="404.4194" />
           <quaternion qx="-0.01066241" qy="0" qz="2.144283e-08" qw="-0.9999431" />
         </offset>
       </connection>
-      <connection name="con_turret_xl_01" group="xl_turrets" tags="turret extralarge standard hittable  combat">
+      <connection name="con_turret_xl_01" group="xl_turrets" tags="turret extralarge standard hittable ship_otas_xl_tempest combat">
         <offset>
           <position x="0" y="-94.70923" z="513.5681" />
           <quaternion qx="1.62425e-07" qy="-0.03127641" qz="-0.9995108" qw="-1.838952e-08" />

@@ -16,6 +16,8 @@
 	<entry name="ship_otas_l_zephyrus_macro" value="extensions\otas_shippack\assets\units\size_l\macros\ship_otas_l_zephyrus_macro"/>
 	<entry name="ship_otas_m_sirokos_macro" value="extensions\otas_shippack\assets\units\size_m\macros\ship_otas_m_sirokos_macro"/>
 	<entry name="ship_otas_m_skiron_macro" value="extensions\otas_shippack\assets\units\size_m\macros\ship_otas_m_skiron_macro"/>	
+	<entry name="ship_otas_m_mistral_macro" value="extensions\otas_shippack\assets\units\size_m\macros\ship_otas_m_mistral_macro"/>
+	<entry name="ship_otas_m_zephyrus_macro" value="extensions\otas_shippack\assets\units\size_m\macros\ship_otas_m_zephyrus_macro"/>
 	<entry name="ship_otas_s_auster_macro" value="extensions\otas_shippack\assets\units\size_s\macros\ship_otas_s_auster_macro"/>
 	<entry name="ship_otas_s_eurus_macro" value="extensions\otas_shippack\assets\units\size_s\macros\ship_otas_s_eurus_macro"/>
 	<entry name="ship_otas_s_notus_macro" value="extensions\otas_shippack\assets\units\size_s\macros\ship_otas_s_notus_macro"/>
@@ -33,6 +35,7 @@
 	<entry name="ishield_otas_l_zephyrus_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\ishield_otas_l_zephyrus_macro"/>
 	<entry name="ishield_otas_m_sirokos_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\ishield_otas_m_sirokos_macro"/>
 	<entry name="ishield_otas_m_skiron_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\ishield_otas_m_skiron_macro"/>
+	<entry name="ishield_otas_m_mistral_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\ishield_otas_m_mistral_macro"/>
 	<entry name="ishield_otas_s_auster_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\ishield_otas_s_auster_macro"/>
 	<entry name="ishield_otas_s_eurus_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\ishield_otas_s_eurus_macro"/>	
 	<entry name="ishield_otas_s_notus_macro" value="extensions\otas_shippack\assets\props\surfaceelements\macros\ishield_otas_s_notus_macro"/>	
@@ -65,7 +68,10 @@
 	<entry name="impact_otas_l_destroyer_macro" value="extensions\otas_shippack\assets\fx\weaponfx\macros\impact_otas_l_destroyer_macro"/>
 	<entry name="muzzle_otas_l_destroyer_macro" value="extensions\otas_shippack\assets\fx\weaponfx\macros\muzzle_otas_l_destroyer_macro"/>	
 	<entry name="bullet_rangefinder_28km_macro" value="extensions\otas_shippack\assets\fx\weaponfx\macros\bullet_rangefinder_28km_macro"/>
-	<entry name="weapon_rangefinder_28km_macro" value="extensions\otas_shippack\assets\props\weaponsystems\guided\macros\weapon_rangefinder_28km_macro"/>	
+	<entry name="weapon_rangefinder_28km_macro" value="extensions\otas_shippack\assets\props\weaponsystems\guided\macros\weapon_rangefinder_28km_macro"/>
+	<entry name="dockingbay_invisible_s_otas_macro" value="extensions\otas_shippack\assets\structures\dock\macros\dockingbay_invisible_s_otas_macro" />
+	<entry name="dockarea_otas_m_zephyrus_left_macro" value="extensions\otas_shippack\assets\structures\dock\macros\dockarea_otas_m_zephyrus_left_macro" />
+	<entry name="dockarea_otas_m_zephyrus_right_macro" value="extensions\otas_shippack\assets\structures\dock\macros\dockarea_otas_m_zephyrus_right_macro" />
 	<!--STORAGE-->
 	<entry name="storage_otas_xl_tempest_macro" value="extensions\otas_shippack\assets\units\size_xl\macros\storage_otas_xl_tempest_macro"/>
 	<entry name="storage_otas_xl_andaman_macro" value="extensions\otas_shippack\assets\units\size_xl\macros\storage_otas_xl_andaman_macro"/>	
@@ -82,6 +88,6 @@
 	<entry name="storage_otas_s_eurus_macro" value="extensions\otas_shippack\assets\units\size_s\macros\storage_otas_s_eurus_macro"/>
 	<entry name="storage_otas_s_notus_macro" value="extensions\otas_shippack\assets\units\size_s\macros\storage_otas_s_notus_macro"/>	
 	<entry name="storage_otas_s_solano_macro" value="extensions\otas_shippack\assets\units\size_s\macros\storage_otas_s_solano_macro"/>
-	<entry name="storage_otas_s_venti_macro" value="extensions\otas_shippack\assets\units\size_s\macros\storage_otas_s_venti_macro"/>			
+	<entry name="storage_otas_s_venti_macro" value="extensions\otas_shippack\assets\units\size_s\macros\storage_otas_s_venti_macro"/>	
   </add>
 </diff>

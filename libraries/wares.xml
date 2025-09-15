@@ -220,68 +220,30 @@
 			<restriction licence="capitalship"/>
 			<owner faction="argon"/>
 		</ware>	
-<!--		
-		<ware id="ship_otas_l_mistral" name="{19530002,711}" description="{19530002,811}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="4614858" average="5422456" max="6230058" />
-			<production time="350" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1913" />
-					<ware ware="hullparts" amount="5049" />
-				</primary>
-			</production>
-			<component ref="ship_otas_l_mistral_macro" amount="1"/>
+		<ware id="ship_otas_m_mistral" name="{19530002,711}" description="{19530002,811}" group="ships_argon" transport="ship" volume="1" tags="ship">
+    		<price min="427207" average="502596" max="577986" />
+    		<production time="26" amount="1" method="default" name="{20206,101}">
+      			<primary>
+					<ware ware="energycells" amount="146" />
+					<ware ware="hullparts" amount="353" />
+      			</primary>
+    		</production>
+			<component ref="ship_otas_m_mistral_macro" amount="1"/>
 			<restriction licence="generaluseship"/>
 			<owner faction="argon"/>
 		</ware>
-		<ware id="ship_otas_l_zephyrus" name="{19530002,709}" description="{19530002,809}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="5075000" average="5963125" max="6851250" />
-			<production time="430" amount="1" method="default" name="{20206,101}">
+		<ware id="ship_otas_m_zephyrus" name="{19530002,709}" description="{19530002,809}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="531000" average="624705" max="718410" />
+			<production time="20" amount="1" method="default" name="{20206,101}">
 				<primary>
-					<ware ware="energycells" amount="9870" />
-					<ware ware="hullparts" amount="12470" />
+					<ware ware="energycells" amount="162" />
+					<ware ware="hullparts" amount="392" />
 				</primary>
 			</production>
-			<component ref="ship_otas_l_zephyrus_macro" amount="1"/>
-			<restriction licence="capitalship"/>
-			<owner faction="argon"/>
+			<component ref="ship_otas_m_zephyrus_macro" amount="1" />
+			<restriction licence="militaryship" />
+			<owner faction="argon" />
 		</ware>
-		<ware id="ship_otas_m_skiron" name="{19530002,703}" description="{19530002,803}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="839862" average="1049827" max="1259792" />
-			<production time="32" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="156" />
-					<ware ware="hullparts" amount="821" />
-				</primary>
-			</production>
-			<component ref="ship_otas_m_skiron_macro" amount="1"/>
-			<restriction licence="militaryship"/>
-			<owner faction="argon"/>
-		</ware>
-		<ware id="ship_otas_m_sirokos" name="{19530002,704}" description="{19530002,804}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="1074160" average="1342700" max="1611240" />
-			<production time="41" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="226"/>
-					<ware ware="hullparts" amount="1192"/>
-				</primary>
-			</production>
-			<component ref="ship_otas_m_sirokos_macro" amount="1"/>
-			<restriction licence="militaryship"/>
-			<owner faction="argon"/>
-		</ware>
-		<ware id="ship_otas_s_auster" name="{19530002,701}" description="{19530002,801}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="222104" average="333156" max="277630" />
-			<production time="17" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="95"/>
-					<ware ware="hullparts" amount="209"/>
-				</primary>
-			</production>
-			<component ref="ship_otas_s_auster_macro" amount="1"/>
-			<restriction licence="militaryship"/>
-			<owner faction="argon"/>
-		</ware>	
--->		
 		<ware id="ship_otas_s_eurus" name="{19530002,706}" description="{19530002,706}" group="ships_argon" transport="ship" volume="1" tags="ship">
 		  <price min="134176" average="167720" max="201264" />
 		  <production time="14" amount="1" method="default" name="{20206,101}">
@@ -318,56 +280,6 @@
 			<restriction licence="generaluseship"/>
 			<owner faction="argon"/>
 		</ware>
-<!--
-		<ware id="ship_otas_s_venti" name="{19530002,708}" description="{19530002,808}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="196532" average="245665" max="294798" />
-			<production time="14" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="72"/>
-					<ware ware="hullparts" amount="167"/>
-				</primary>
-			</production>
-			<component ref="ship_otas_s_venti_macro" amount="1"/>
-			<restriction licence="militaryship"/>
-			<owner faction="argon"/>
-		</ware>
-		<ware id="ship_otas_xl_vesuvius" name="{20101,200401}" description="{19530002,813}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="9306200" average="10948470" max="12590741" />
-			<production time="527" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="2913" />
-					<ware ware="hullparts" amount="10254" />
-				</primary>
-			</production>
-			<component ref="ship_otas_xl_vesuvius_macro" amount="1"/>
-			<restriction licence="generaluseship"/>
-			<owner faction="argon"/>
-		</ware>
-		<ware id="ship_otas_xl_genthus" name="{20101,81401}" description="{19530002,814}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="7310438" average="8600515" max="9890592" />
-			<production time="527" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="2288" />
-					<ware ware="hullparts" amount="8055" />
-				</primary>
-			</production>
-			<component ref="ship_otas_xl_genthus_macro" amount="1"/>
-			<restriction licence="militaryship"/>
-			<owner faction="argon"/>
-		</ware>
-		<ware id="ship_otas_xl_andaman" name="{20101,81901}" description="{19530002,815}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="16038308" average="18650950" max="21263593" />
-			<production time="583" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="3905" />
-					<ware ware="hullparts" amount="14535" />
-				</primary>
-			</production>
-			<component ref="ship_otas_xl_andaman_macro" amount="1"/>
-			<restriction licence="capitalship"/>
-			<owner faction="argon"/>
-		</ware>	
--->		
 	</add> 	
 	<!-- iShields -->
 	<add sel="//wares">
@@ -451,6 +363,16 @@
 			</production>
 			<use threshold="0"/>
 		</ware>
+		<ware id="ishield_otas_m_mistral" name="{19530002,916}" description="{19530002,916}" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="12" average="16" max="21"/>
+			<component ref="ishield_otas_m_mistral_macro" amount="1"/>
+			<production time="1" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="energycells" amount="1"/>
+				</primary>
+			</production>
+			<use threshold="0"/>
+		</ware>		
 		<ware id="ishield_otas_s_auster" name="{19530002,908}" description="{19530002,908}" group="shields" transport="equipment" volume="1" tags="equipment shield">
 			<price min="12" average="16" max="21"/>
 			<component ref="ishield_otas_s_auster_macro" amount="1"/>

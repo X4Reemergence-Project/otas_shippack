@@ -16,6 +16,8 @@
 	<entry name="ship_otas_l_zephyrus" value="extensions\otas_shippack\assets\units\size_l\ship_otas_l_zephyrus"/>
 	<entry name="ship_otas_m_sirokos" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_sirokos"/>
 	<entry name="ship_otas_m_skiron" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_skiron"/>
+	<entry name="ship_otas_m_mistral" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_mistral"/>
+	<entry name="ship_otas_m_zephyrus" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_zephyrus"/>
 	<entry name="ship_otas_s_auster" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_auster"/>	
 	<entry name="ship_otas_s_eurus" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_eurus"/>
 	<entry name="ship_otas_s_notus" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_notus"/>	
@@ -33,6 +35,7 @@
 	<entry name="ishield_otas_l_zephyrus" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_l_zephyrus"/>
 	<entry name="ishield_otas_m_sirokos" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_m_sirokos"/>
 	<entry name="ishield_otas_m_skiron" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_m_skiron"/>
+	<entry name="ishield_otas_m_mistral" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_m_mistral"/>
 	<entry name="ishield_otas_s_auster" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_s_auster"/>
 	<entry name="ishield_otas_s_eurus" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_s_eurus"/>
 	<entry name="ishield_otas_s_notus" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_s_notus"/>
@@ -63,5 +66,8 @@
 	<entry name="muzzle_otas_l_destroyer" value="extensions\otas_shippack\assets\fx\weaponfx\muzzle_otas_l_destroyer"/>	
 	<entry name="bullet_rangefinder_28km" value="extensions\otas_shippack\assets\fx\weaponfx\bullet_rangefinder_28km"/>
 	<entry name="weapon_rangefinder_28km" value="extensions\otas_shippack\assets\props\weaponsystems\guided\weapon_rangefinder_28km"/>	
+	<entry name="dockingbay_invisible_s_otas" value="extensions\otas_shippack\assets\structures\dock\dockingbay_invisible_s_otas" />
+	<entry name="dockarea_otas_m_zephyrus_left" value="extensions\otas_shippack\assets\structures\dock\dockarea_otas_m_zephyrus_left" />
+	<entry name="dockarea_otas_m_zephyrus_right" value="extensions\otas_shippack\assets\structures\dock\dockarea_otas_m_zephyrus_right" />
   </add>
 </diff>
