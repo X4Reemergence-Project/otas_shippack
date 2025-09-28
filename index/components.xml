@@ -6,23 +6,14 @@
 	<entry name="prod_otas_stimulants" value="extensions\otas_shippack\assets\structures\production\prod_otas_stimulants"/> 	  
 	<!--SHIPS-->
 	<entry name="ship_otas_xl_tempest" value="extensions\otas_shippack\assets\units\size_xl\ship_otas_xl_tempest"/>	
-	<entry name="ship_otas_xl_andaman" value="extensions\otas_shippack\assets\units\size_xl\ship_otas_xl_andaman"/>		
-	<entry name="ship_otas_xl_vesuvius" value="extensions\otas_shippack\assets\units\size_xl\ship_otas_xl_vesuvius"/>	
-	<entry name="ship_otas_xl_genthus" value="extensions\otas_shippack\assets\units\size_xl\ship_otas_xl_genthus"/>	
 	<entry name="ship_otas_l_aquilo" value="extensions\otas_shippack\assets\units\size_l\ship_otas_l_aquilo"/>
 	<entry name="ship_otas_l_astraeus" value="extensions\otas_shippack\assets\units\size_l\ship_otas_l_astraeus"/>
 	<entry name="ship_otas_l_boreas" value="extensions\otas_shippack\assets\units\size_l\ship_otas_l_boreas"/>
-	<entry name="ship_otas_l_mistral" value="extensions\otas_shippack\assets\units\size_l\ship_otas_l_mistral"/>
-	<entry name="ship_otas_l_zephyrus" value="extensions\otas_shippack\assets\units\size_l\ship_otas_l_zephyrus"/>
-	<entry name="ship_otas_m_sirokos" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_sirokos"/>
-	<entry name="ship_otas_m_skiron" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_skiron"/>
 	<entry name="ship_otas_m_mistral" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_mistral"/>
 	<entry name="ship_otas_m_zephyrus" value="extensions\otas_shippack\assets\units\size_m\ship_otas_m_zephyrus"/>
-	<entry name="ship_otas_s_auster" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_auster"/>	
 	<entry name="ship_otas_s_eurus" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_eurus"/>
 	<entry name="ship_otas_s_notus" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_notus"/>	
-	<entry name="ship_otas_s_solano" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_solano"/>
-	<entry name="ship_otas_s_venti" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_venti"/>			
+	<entry name="ship_otas_s_solano" value="extensions\otas_shippack\assets\units\size_s\ship_otas_s_solano"/>			
 	<!--iSHIELDS-->	
 	<entry name="ishield_otas_xl_tempest" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_xl_tempest"/>	
 	<entry name="ishield_otas_xl_andaman" value="extensions\otas_shippack\assets\props\surfaceelements\ishield_otas_xl_andaman"/>		
