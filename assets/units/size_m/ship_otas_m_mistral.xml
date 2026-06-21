@@ -1796,7 +1796,7 @@
           <quaternion qx="0" qy="0" qz="-0.551937" qw="-0.8338858" />
         </offset>
       </connection>
-      <connection name="zephyrus_turret_m_std_unhittable004" tags="standard  combat medium turret unhittable ">
+      <connection name="mistral_turret_m_std_unhittable004" tags="standard  combat medium turret unhittable ">
         <offset>
           <position x="20.3436" y="2.07655" z="-25.9585" />
           <quaternion qx="0" qy="0" qz="0.551937" qw="-0.8338858" />

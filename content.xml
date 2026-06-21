@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="otas_shippack" name="OTAS Shippack" description="Reintroduces the OTAS Corporation's ships" author="X4:RE Team" version="140" date="2024-09-15" >
+<content id="otas_shippack" name="OTAS Shippack" description="Reintroduces the OTAS Corporation's ships" author="X4:RE Team" version="150" date="2026-04-27" >
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
   <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity" />
   <dependency id="ego_dlc_boron" optional="false" name="Kingdom End" />
   <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
-  <dependency id="ws_1696862840" optional="false" name="Variety and Rebalance Overhaul"/>  
+<!--  <dependency id="ws_1696862840" optional="false" name="Variety and Rebalance Overhaul"/> --> 
 </content>

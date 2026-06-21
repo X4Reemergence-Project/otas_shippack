@@ -16,6 +16,7 @@
       </software>
 	  <storage missile="12" />
 	  <hull max="4925" />
+    <glow engine="1" />
 	  <secrecy level="2" />
 	  <purpose primary="fight" />
 	  <people capacity="2" />
