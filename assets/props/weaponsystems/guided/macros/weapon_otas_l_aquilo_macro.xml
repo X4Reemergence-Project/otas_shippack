@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="weapon_otas_l_aquilo_macro" class="missilelauncher">
+    <component ref="weapon_otas_l_aquilo" />
+    <properties>
+      <identification name="{19530002,200}" shortname="{19530002,200}" makerrace="argon" />
+      <ammunition tags="anemoi" />
+      <bullet class="missile_otas_l_anemoi_macro" />
+      <hull integrated="1" paint="1" />
+      <weapon angle="50" />
+    </properties>
+  </macro>
+</macros>

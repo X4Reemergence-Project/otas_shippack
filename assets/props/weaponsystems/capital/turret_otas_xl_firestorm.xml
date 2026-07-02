@@ -190,8 +190,12 @@
       </connection>
       <connection name="ConnectionForbarrel" tags="animation forceoutline iklink nocollision part " parent="elevation">
         <animations>
-          <animation name="gun_firing" start="2" end="17" />
-        </animations>        
+          <animation name="turret_inactive" start="1" end="2" />
+          <animation name="turret_activating" start="2" end="3" />
+          <animation name="turret_active" start="3" end="4" />
+          <animation name="turret_deactivating" start="21" end="22" />
+          <animation name="gun_firing" start="5" end="20" />
+        </animations>       
 		<parts>
           <part name="barrel">
             <lods>

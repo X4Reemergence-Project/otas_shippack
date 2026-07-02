@@ -188,7 +188,25 @@
           </part>
         </parts>
       </connection>
-      <connection name="Connection04" tags="detail_xl forceoutline nocollision part ">
+      <connection name="ConnectionForfx_poslights" tags="detail_m forceoutline nocollision part ">
+        <parts>
+          <part name="fx_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="91.09925" y="64.20354" z="278.1955" />
+              <center x="-1.907349e-06" y="2.090243" z="81.97449" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+<!-- LEGACY: covers for side launchers
+            <connection name="Connection04" tags="detail_xl forceoutline nocollision part ">
         <parts>
           <part name="detail_xl">
             <lods>
@@ -204,7 +222,7 @@
             </size>
           </part>
         </parts>
-      </connection>
+      </connection>-->
 			
 			<connection name="con_playercontrol" tags="playercontrol">
 				<offset>
@@ -279,11 +297,6 @@
           <position x="-48.87159" y="23.48346" z="-80.78716" />
         </offset>
       </connection>
-			<connection name="con_ishield_01" tags="ishield shield unhittable ishield_otas_l_aquilo">
-				<offset>
-					<position x="0" y="0" z="0"/>
-				</offset>
-			</connection>
 
 <!-- engines -->
       <connection name="engine_L" group="engines " tags="engine large standard ">
@@ -372,16 +385,10 @@
         </offset>
       </connection>
 	
-<!-- VLS launchers -->
-			<connection group="VLS_launcher" name="con_weapon_01" tags="noshield turret large turret_otas_l_missilefrigate ">
+<!-- launchers -->
+			<connection name="weapon_launcher" tags="weapon missile large ship_otas_l_aquilo mandatory ">
 				<offset>
-					<position x="0" y="24.6057" z="168.177"/>
-					<rotation yaw="0" pitch="-7.5" roll="0"/>
-				</offset>
-			</connection>
-			<connection name="rangefinder01" tags="weapon small rangefinder_28km ">
-				<offset>
-					<position x="0" y="-24.7421" z="341.309"/>
+					<position x="0" y="-22.2461 " z="360.437 "/>
 				</offset>
 			</connection>
 

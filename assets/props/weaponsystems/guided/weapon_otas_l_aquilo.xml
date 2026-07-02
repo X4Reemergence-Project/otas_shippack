@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<components>
+	<component name="weapon_otas_l_aquilo" class="missilelauncher">
+		<source geometry="\extensions\otas_shippack\assets\props\weaponsystems\guided\weapon_otas_l_aquilo_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="missilelauncher" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="weapon_con" tags="component weapon missile large ship_otas_l_aquilo " />
+      <connection name="ConnectionForpart_socket" tags="part " hidden="true">
+        <offset/>
+        <parts>
+          <part name="part_socket">
+            <lods>
+              <lod index="0">
+                <materials />
+              </lod>
+            </lods>
+            <size>
+              <max x="1" y="1" z="1" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForlauncher_left" tags="animation forceoutline iklink part " parent="part_socket">
+        <offset>
+          <position x="-70" y="0" z="-230" />
+        </offset>
+        <animations>
+          <animation name="weapon_firing" start="0" end="900" />
+        </animations>
+        <parts>
+          <part name="launcher_left">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.99384" y="5.301549" z="46.01195" />
+              <center x="1.175858" y="0" z="45.8283" />
+            </size>
+            <size_raw>
+              <max x="13.99384" y="5.301549" z="46.01195" />
+              <center x="1.175853" y="-2.384186e-07" z="45.8283" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_guided001" tags="rocket " parent="launcher_left">
+        <offset>
+          <position x="-7.446442" y="1.192093e-06" z="92.82435" />
+          <quaternion qx="0" qy="0.06104854" qz="0" qw="-0.9981348" />
+        </offset>
+      </connection>
+      <connection name="con_guided003" tags="rocket " parent="launcher_left">
+        <offset>
+          <position x="-0.06560516" y="1.192093e-06" z="93.73715" />
+          <quaternion qx="0" qy="0.06104854" qz="0" qw="-0.9981348" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForlauncher_right" tags="animation forceoutline iklink part " parent="part_socket">
+        <offset>
+          <position x="70" y="0" z="-230" />
+        </offset>
+        <animations>
+          <animation name="weapon_firing" start="1" end="900" />
+        </animations>
+        <parts>
+          <part name="launcher_right">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="13.99384" y="5.301546" z="46.01195" />
+              <center x="-1.175858" y="0" z="45.8283" />
+            </size>
+            <size_raw>
+              <max x="13.99384" y="5.301546" z="46.01195" />
+              <center x="-1.175854" y="0" z="45.8283" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_guided002" tags="rocket " parent="launcher_right">
+        <offset>
+          <position x="7.382118" y="0" z="92.83099" />
+          <quaternion qx="0" qy="-0.06104854" qz="0" qw="-0.9981348" />
+        </offset>
+      </connection>
+      <connection name="con_guided004" tags="rocket " parent="launcher_right">
+        <offset>
+          <position x="0.0562973" y="0" z="93.7305" />
+          <quaternion qx="0" qy="-0.06104854" qz="0" qw="-0.9981348" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

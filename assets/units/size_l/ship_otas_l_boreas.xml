@@ -119,7 +119,24 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="Connection02" tags="part detail_xl forceoutline nocollision  ">
+      <connection name="ConnectionFordetail_m_poslights" tags="detail_m forceoutline nocollision part ">
+        <parts>
+          <part name="detail_m_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="288.1447" y="228.8267" z="504.2422" />
+              <center x="-7.629395e-06" y="5.720934" z="-21.9466" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+			<connection name="Connection02" tags="part detail_l forceoutline nocollision  ">
 				<offset>
 					<position x="0" y="0" z="0"/>
 				</offset>
@@ -162,7 +179,7 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="Connection05" tags="part animation detail_xl nocollision forceoutline anim_dockdoor ">
+<!--			<connection name="Connection05" tags="part animation detail_xl nocollision forceoutline anim_dockdoor ">
 				<offset>
 					<position x="0" y="0" z="0"/>
 					<quaternion qx="-0.7071068" qy="-0" qz="-0" qw="-0.7071067"/>
@@ -192,7 +209,7 @@
 						</size_raw>
 					</part>
 				</parts>
-			</connection>
+			</connection>-->
 			<connection name="con_playercontrol" tags="playercontrol">
 				<offset>
 					<position x="-2.243557" y="99.14" z="-22.73"/>
@@ -249,11 +266,6 @@
 			</connection>
 			
 <!-- Shields -->
-			<connection name="con_ishield_01" tags="ishield shield unhittable ishield_otas_l_boreas">
-				<offset>
-					<position x="0" y="0" z="0"/>
-				</offset>
-			</connection>
 			<connection name="con_shieldgen_02" tags="standard large shield hittable ">
 				<offset>
 					<position x="91.8558" y="0" z="-155"/>

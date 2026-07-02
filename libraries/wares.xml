@@ -7,19 +7,6 @@
 -->	
 	<!--STATION MODULES-->
 	<add sel="//wares">  
-      <ware id="struct_otas_cross_01" name="{19530002,400}" description="{19530002,400}" transport="container" volume="1" tags="module">
-		<price min="95300" average="106824" max="118348" />
-		<production time="47" amount="1" method="default" name="{20206,101}">
-          <primary>
-            <ware ware="claytronics" amount="12" />
-            <ware ware="energycells" amount="24" />
-            <ware ware="hullparts" amount="44" />
-          </primary>
-        </production>
-        <component ref="struct_otas_cross_01_macro" amount="1" />
-        <restriction licence="station_gen_basic" />
-        <owner faction="argon" />
-      </ware>
       <ware id="module_otas_prod_stimulants" name="{19530002,402}" description="{20104,15802}" transport="container" volume="1" tags="module">
 	    <price min="1735171" average="2041378" max="2347585" />
         <production time="787" amount="1" method="default" name="{20206,901}">
@@ -51,7 +38,7 @@
 		  <use threshold="0"/>
 		  <owner faction="argon"/>
 		</ware>
-		<ware id="turret_otas_l_missilefrigate" name="{19530002,200}" description="{19530002,300}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+		<ware id="weapon_otas_l_aquilo" name="{19530002,200}" description="{19530002,300}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
 		  <price min="150000" average="200000" max="250000" />
 		  <production time="10" amount="1" method="default" name="{20206,101}">
 			<primary>
@@ -60,7 +47,7 @@
 			  <ware ware="weaponcomponents" amount="52" />
 			</primary>
 		  </production>
-		  <component ref="turret_otas_l_missilefrigate_macro" amount="1" />
+		  <component ref="weapon_otas_l_aquilo_macro" amount="1" />
 		  <restriction licence="capitalequipment" />
 		  <use threshold="0" />
 		  <owner faction="argon" />		  
@@ -123,53 +110,8 @@
 		  <restriction licence="militaryequipment" />
 		  <use threshold="0.9" />
 		  <owner faction="argon"/>	  
-		</ware>			
-		<ware id="weapon_otas_s_notus_launcher" name="{19530002,206}" description="{19530002,306}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-		  <price min="145460" average="158382" max="171304" />
-		  <production time="10" amount="1" method="default" name="{20206,101}">
-			<primary>
-			  <ware ware="advancedelectronics" amount="23" />
-			  <ware ware="energycells" amount="53" />
-			  <ware ware="weaponcomponents" amount="48" />
-			</primary>
-		  </production>
-		  <component ref="weapon_otas_s_notus_launcher_macro" amount="1" />
-		  <restriction licence="militaryequipment" />
-		  <use threshold="0" />
-		  <owner faction="argon" />
-		  <owner faction="court" />
-		  <owner faction="freesplit" />
-		  <owner faction="split" />		  
-		</ware>		
-		<ware id="weapon_otas_s_notus_bomb" name="{19530002,207}" description="{19530002,307}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-		  <price min="155460" average="168382" max="181304" />
-		  <production time="10" amount="1" method="default" name="{20206,101}">
-			<primary>
-			  <ware ware="advancedelectronics" amount="19" />
-			  <ware ware="energycells" amount="42" />
-			  <ware ware="weaponcomponents" amount="52" />
-			</primary>
-		  </production>
-		  <component ref="weapon_otas_s_notus_bomb_macro" amount="1" />
-		  <restriction licence="militaryequipment" />
-		  <use threshold="0" />
-		  <owner faction="argon" />
-		  <owner faction="court" />
-		  <owner faction="freesplit" />
-		  <owner faction="split" />			  
 		</ware>	
-		<ware id="weapon_rangefinder_28km" name="{19530002,208}" description="{19530002,308}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-		  <price min="1" average="1" max="1" />
-		  <production time="1" amount="1" method="default" name="{20206,101}">
-			<primary>
-			  <ware ware="energycells" amount="1" />
-			</primary>
-		  </production>
-		  <component ref="weapon_rangefinder_28km_macro" amount="1" />
-		  <restriction licence="capitalequipment" />
-		  <use threshold="0" />	  
-		</ware>			
-	</add>	
+	</add>			
 	<!-- SHIPS -->  
 	<add sel="//wares">
 		<ware id="ship_otas_xl_tempest" name="{19530002,712}" description="{19530002,812}" group="ships_argon" transport="ship" volume="1" tags="ship">
@@ -281,177 +223,5 @@
 			<owner faction="argon"/>
 		</ware>
 	</add> 	
-	<!-- iShields -->
-	<add sel="//wares">
-		<ware id="ishield_otas_xl_tempest" name="{19530002,900}" description="{19530002,900}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-		  <price min="12" average="16" max="21"/>
-		  <component ref="ishield_otas_xl_tempest_macro" amount="1"/>
-		  <production time="1" amount="1" method="default" name="{20206,101}">
-			<primary>
-			  <ware ware="energycells" amount="1"/>
-			</primary>
-		  </production>
-		  <use threshold="0"/>
-		</ware>	
-		<ware id="ishield_otas_l_aquilo" name="{19530002,901}" description="{19530002,901}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_l_aquilo_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_l_astraeus" name="{19530002,902}" description="{19530002,902}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_l_astraeus_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_l_boreas" name="{19530002,903}" description="{19530002,903}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_l_boreas_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_l_mistral" name="{19530002,904}" description="{19530002,904}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_l_mistral_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_l_zephyrus" name="{19530002,905}" description="{19530002,905}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_l_zephyrus_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_m_sirokos" name="{19530002,906}" description="{19530002,906}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_m_sirokos_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_m_skiron" name="{19530002,907}" description="{19530002,907}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_m_skiron_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_m_mistral" name="{19530002,916}" description="{19530002,916}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_m_mistral_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>		
-		<ware id="ishield_otas_s_auster" name="{19530002,908}" description="{19530002,908}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_s_auster_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_s_eurus" name="{19530002,909}" description="{19530002,909}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_s_eurus_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_s_notus" name="{19530002,910}" description="{19530002,910}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_s_notus_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>	
-		<ware id="ishield_otas_s_solano" name="{19530002,911}" description="{19530002,911}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_s_solano_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_s_venti" name="{19530002,912}" description="{19530002,912}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_s_venti_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>
-		<ware id="ishield_otas_xl_vesuvius" name="{19530002,913}" description="{19530002,913}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_xl_vesuvius_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>	
-		<ware id="ishield_otas_xl_genthus" name="{19530002,914}" description="{19530002,914}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_xl_genthus_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>	
-		<ware id="ishield_otas_xl_andaman" name="{19530002,915}" description="{19530002,915}" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="12" average="16" max="21"/>
-			<component ref="ishield_otas_xl_andaman_macro" amount="1"/>
-			<production time="1" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="1"/>
-				</primary>
-			</production>
-			<use threshold="0"/>
-		</ware>			
-	</add>	
+
 </diff>

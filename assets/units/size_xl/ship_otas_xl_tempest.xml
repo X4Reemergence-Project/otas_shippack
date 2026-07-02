@@ -272,7 +272,7 @@
           </part>
         </parts>
       </connection>	  
-      <connection name="con_detail_s" tags="detail_s nocollision part ">
+      <connection name="con_detail_s" tags="detail_m nocollision part ">
         <parts>
           <part name="detail_s">
             <lods>
@@ -429,12 +429,6 @@
 			</connection>	
 
 <!-- SHIELDS -->
-
-			<connection name="con_ishield_01" tags="ishield shield unhittable ishield_otas_xl_tempest">
-				<offset>
-					<position x="0" y="0" z="0"/>
-				</offset>
-			</connection>
       <connection name="con_shieldgen_xl_03" tags="extralarge hittable shield standard ">
         <offset>
           <position x="0" y="-71.67642" z="114.4887" />
