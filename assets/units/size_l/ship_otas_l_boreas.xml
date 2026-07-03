@@ -78,47 +78,42 @@
 			<connection name="space" tags="ship ship_l">
 				<offset/>
 			</connection>
-			<connection name="Connection01" tags="part  ">
+			<connection name="con_playercontrol" tags="playercontrol">
 				<offset>
-					<position x="0" y="0" z="0"/>
+					<position x="-2.243557" y="99.14" z="-22.73"/>
 				</offset>
-				<parts>
-					<part name="part_main" wreck="part_main_wreck">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hulltexture"/>
-									<material id="2" ref="generic.generic_p1_fx"/>
-									<material id="3" ref="generic.generic_p1_hullpattern"/>
-								</materials>
-							</lod>
-							<lod index="1">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hulltexture"/>
-									<material id="2" ref="generic.generic_p1_fx"/>
-									<material id="3" ref="generic.generic_p1_hullpattern"/>
-								</materials>
-							</lod>
-							<lod index="2">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hulltexture"/>
-									<material id="2" ref="generic.generic_p1_fx"/>
-									<material id="3" ref="generic.generic_p1_hullpattern"/>
-								</materials>
-							</lod>
-							<lod index="3">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hullpattern"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="227" y="112" z="783"/>
-							<center x="0" y="0" z="-100"/>
-						</size>
-					</part>
-				</parts>
 			</connection>
+			<connection name="con_storage01" tags="storage ">
+				<offset>
+					<position x="0" y="-100.2" z="-233.61 "/>
+					<rotation yaw="0" pitch="0" roll="180"/>
+				</offset>
+			</connection>
+			<connection name="con_cockpit" tags="cockpit cockpit_visible">
+				<offset>
+					<position x="0" y="87.5507" z="25.5"/>
+				</offset>
+			</connection>
+<!-- geometry -->
+      <connection name="ConnectionFordetail_l" tags="detail_l forceoutline nocollision part ">
+        <parts>
+          <part name="detail_l">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="171.9429" y="119.592" z="598.108" />
+              <center x="3.814697e-06" y="-3.641018" z="-33.04999" />
+            </size>
+          </part>
+        </parts>
+      </connection>
       <connection name="ConnectionFordetail_m_poslights" tags="detail_m forceoutline nocollision part ">
         <parts>
           <part name="detail_m_poslights">
@@ -136,96 +131,62 @@
           </part>
         </parts>
       </connection>
-			<connection name="Connection02" tags="part detail_l forceoutline nocollision  ">
-				<offset>
-					<position x="0" y="0" z="0"/>
-				</offset>
-				<parts>
-					<part name="detail_xl">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hulltexture"/>
-									<material id="2" ref="generic.generic_p1_fx"/>
-									<material id="3" ref="generic.generic_p1_hullpattern"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="181.113" y="70.84888" z="278.2184"/>
-							<center x="0" y="0" z="1.144409E-05"/>
-						</size>
-					</part>
-				</parts>
-			</connection>
-			<connection name="Connection03" tags="part nocollision forceoutline detail_l fx  ">
-				<offset>
-					<position x="0" y="0" z="0"/>
-				</offset>
-				<parts>
-					<part name="fx_licence01">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="p1paint.paint_idcode"/>
-									<material id="2" ref="p1paint.paint_logo"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="121.3916" y="48.37067" z="239.1502"/>
-							<center x="-8.773804E-05" y="3.814697E-06" z="-3.401489"/>
-						</size>
-					</part>
-				</parts>
-			</connection>
-<!--			<connection name="Connection05" tags="part animation detail_xl nocollision forceoutline anim_dockdoor ">
-				<offset>
-					<position x="0" y="0" z="0"/>
-					<quaternion qx="-0.7071068" qy="-0" qz="-0" qw="-0.7071067"/>
-				</offset>
-				<animations>
-					<animation name="dockingbay_closed" start="1" end="1"/>
-					<animation name="dockingbay_opening" start="1" end="25"/>
-					<animation name="dockingbay_open" start="25" end="25"/>
-					<animation name="dockingbay_closing" start="25" end="50"/>
-				</animations>
-				<parts>
-					<part name="anim_hatch">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="generic.generic_p1_hulltexture"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="1.800216" y="1.818768" z="1.788174"/>
-							<center x="-4.130688E-08" y="-1.674332" z="7.037354E-02"/>
-						</size>
-						<size_raw>
-							<max x="1.800216" y="1.748389" z="0.1138477"/>
-							<center x="-4.130688E-08" y="0" z="0"/>
-						</size_raw>
-					</part>
-				</parts>
-			</connection>-->
-			<connection name="con_playercontrol" tags="playercontrol">
-				<offset>
-					<position x="-2.243557" y="99.14" z="-22.73"/>
-				</offset>
-			</connection>
-			<connection name="con_storage01" tags="storage ">
-				<offset>
-					<position x="0" y="-100.2" z="-233.61 "/>
-					<rotation yaw="0" pitch="0" roll="180"/>
-				</offset>
-			</connection>
-			<connection name="con_cockpit" tags="cockpit cockpit_visible">
-				<offset>
-					<position x="0" y="87.5507" z="25.5"/>
-				</offset>
-			</connection>
+      <connection name="ConnectionForfx_licence01" tags="detail_l forceoutline fx nocollision part ">
+        <parts>
+          <part name="fx_licence01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2paint.pnt_p2_tailnumber_01" />
+                  <material id="2" ref="p2paint.pnt_p2_logo_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="163.835" y="23.2958" z="411.2271" />
+              <center x="6.866455e-05" y="40.24086" z="-52.47604" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_fx_01" />
+                  <material id="2" ref="generic.generic_p1_hullpattern" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hullpattern" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="290.542" y="229.486" z="533.028" />
+              <center x="7.629395e-06" y="5.78997" z="-50.862" />
+            </size>
+          </part>
+        </parts>
+      </connection>
 
 <!-- L Engines -->
 			<connection name="con_engine_01" group="group_engines " tags=" standard engine large ">
