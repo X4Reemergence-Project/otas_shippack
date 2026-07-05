@@ -307,7 +307,7 @@
 			</connection>
       <connection name="Connection16" group=" " tags="envmap_cockpit part ">
         <offset>
-          <position x="-0.9702887" y="-0.8157404" z="-1.154629" />
+          <position x="-0.9702887" y="-0.8157404" z="2.845371" />
           <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071067" />
         </offset>
         <parts>
@@ -542,7 +542,10 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForanim_poslights" tags="part detail_m nocollision animation textureanimation forceoutline  ">
+      <connection name="ConnectionForanim_poslights" tags="animation detail_l forceoutline nocollision part textureanimation ">
+        <animations>
+          <animation name="loop" start="1" end="101" />
+        </animations>
         <parts>
           <part name="anim_poslights">
             <lods>
@@ -553,28 +556,28 @@
               </lod>
             </lods>
             <size>
-              <max x="5.789001" y="2.461465" z="7.346244" />
-              <center x="1.192093e-07" y="0.4620433" z="-2.363436" />
+              <max x="11.27977" y="3.466358" z="11.684" />
+              <center x="1.193e-07" y="0" z="-2.384e-07" />
             </size>
-						<uv_animations>
-							<uv_animation mapchannel="1">
-								<uv_property name="u_offset" controller="bezier_float">
-									<key frame="0" value="0" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="4" value="0" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="5" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="9" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="10" value="0" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="14" value="0" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="15" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="64" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="65" value="0" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="69" value="0" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="70" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="99" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
-									<key frame="100" value="-0.4" in_tangent_type="step" out_tangent_type="step"/>
-								</uv_property>
-							</uv_animation>
-						</uv_animations>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="5" value="0" />
+                  <key frame="6" value="-0.4" />
+                  <key frame="10" value="-0.4" />
+                  <key frame="11" value="0" />
+                  <key frame="15" value="0" />
+                  <key frame="16" value="-0.4" />
+                  <key frame="65" value="-0.4" />
+                  <key frame="66" value="0" />
+                  <key frame="70" value="0" />
+                  <key frame="71" value="-0.4" />
+                  <key frame="100" value="-0.4" />
+                  <key frame="101" value="-0.4" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
           </part>
         </parts>
       </connection>
