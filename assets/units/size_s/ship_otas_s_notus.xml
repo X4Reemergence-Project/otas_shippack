@@ -1398,7 +1398,7 @@
 					<position x="-5.83761" y="0.674927" z="5" />
 				</offset>
 			</connection>
-			<connection name="con_weapon_01" tags="advanced combat highpower platformcollision small weapon ">
+			<connection name="con_weapon_01" tags="weapon small platformcollision highpower standard combat ">
 				<offset>
 					<position x="0" y="-1.236168" z="7.60469" />
 				</offset>
