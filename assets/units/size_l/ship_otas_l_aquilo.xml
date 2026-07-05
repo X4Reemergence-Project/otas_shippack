@@ -281,8 +281,8 @@
 <!-- airlock -->
 			<connection name="con_dock_xs" tags="dock_xs ">
 				<offset>
-					<position x="0" y="-42.3341" z="-121.417  "/>
-					<rotation yaw="0" pitch="0" roll="0"/>
+					<position x="0" y="-42.3341" z="-88.583"/>
+					<rotation yaw="0" pitch="-25" roll="0"/>
 				</offset>
 			</connection>
 

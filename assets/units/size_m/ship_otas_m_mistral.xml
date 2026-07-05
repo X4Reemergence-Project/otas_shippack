@@ -2019,7 +2019,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_engines" tags="engineeffect forceoutline nocollision part ">
+      <connection name="ConnectionForpart_engines" tags="engineeffect forceoutline part ">
         <offset>
           <position x="0" y="0" z="-54.26464" />
         </offset>

@@ -61,15 +61,18 @@
 						</links>
 					</waypoint>
 				</waypoints>
-				<lights>
-					<omni name="XU Omni025" shadow="0" r="255" g="255" b="255" range="14.1" shadowrange="14.1" lighteffect="1" trigger="1" intensity="1" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="0" y="-72" z="-168"/>
-							<quaternion qx="-3.285407E-04" qy="-2.897435E-07" qz="-8.819102E-04" qw="-0.9999996"/>
-						</offset>
-					</omni>
-				</lights>
+        		<lights>
+          			<omni name="dockarea_light_point" shadow="1" r="0" g="129" b="255" intensity="2.126325" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            			<offset>
+              				<position x="24.51679" y="-82.08" z="-103.4375" />
+            			</offset>
+          			</omni>
+          			<omni name="dockarea_light_point001" shadow="1" r="0" g="129" b="255" intensity="2.126325" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            			<offset>
+              				<position x="-24.51679" y="-82.08" z="-103.4375" />
+            			</offset>
+          			</omni>
+       			 </lights>
 			</layer>
 		</layers>
 		<connections>
@@ -499,7 +502,7 @@
 			</connection>
 			<connection name="con_dock_xs" tags="dock_xs ">
 				<offset>
-					<position x="0" y="-82.08" z="-152.93 "/>
+					<position x="0" y="-82.08" z="-88.5721"/>
 					<rotation yaw="0" pitch="0" roll="0"/>
 				</offset>
 			</connection>

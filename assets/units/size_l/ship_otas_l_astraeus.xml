@@ -62,6 +62,11 @@
 					</waypoint>
 				</waypoints>
 				<lights>
+          			<omni name="dockarea_light_point" shadow="1" r="0" g="129" b="255" intensity="2.126325" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            			<offset>
+              				<position x="1.907349e-06" y="-29.10912" z="201.7425" />
+            			</offset>
+          			</omni>
 					<omni name="XU Omni01" shadow="0" r="188" g="245" b="255" range="69" shadowrange="69" lighteffect="1" trigger="1" intensity="0.8000001" specularintensity="1">
 						<lightanimations/>
 						<offset>
@@ -513,6 +518,9 @@
 				<offset/>
 			</connection>
       <connection name="ConnectionFordetail_m_poslights" tags="detail_m forceoutline nocollision part ">
+				<offset>
+					<position x="0" y="0" z="3.274384"/>
+				</offset>
         <parts>
           <part name="detail_m_poslights">
             <lods>

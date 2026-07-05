@@ -36,7 +36,7 @@
 			<macro ref="dockarea_atf_xl_battleship_01_macro" connection="Connection01" />
 		  </connection>
 		  <connection ref="con_dock_xs">
-			<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+			<macro ref="dock_gen_xs_ship_flat_macro" connection="Connection_component" />
 		  </connection>
 		  <connection ref="con_shipstorage_s_01">
 			<macro ref="shipstorage_gen_s_cap6_macro" connection="object" />
