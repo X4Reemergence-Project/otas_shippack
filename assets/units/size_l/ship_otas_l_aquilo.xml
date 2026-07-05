@@ -406,6 +406,12 @@
 				</offset>
 			</connection>
 
+      <connection name="leak_claim" tags="leak_claim ">
+        <offset>
+          <position x="0" y="-53.13074" z="-98.07138" />
+          <quaternion qx="-1" qy="0" qz="0" qw="-4.371139e-08" />
+        </offset>
+      </connection>
 	
 		</connections>
 	</component>

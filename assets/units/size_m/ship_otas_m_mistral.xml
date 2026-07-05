@@ -2784,7 +2784,7 @@
           <quaternion qx="0.3535533" qy="0.6123724" qz="0.3535535" qw="-0.6123725" />
         </offset>
       </connection>
-      <connection name="leak_claim" tags="">
+      <connection name="leak_claim" tags="leak_claim">
         <offset>
           <position x="-2.30979" y="-12.3443" z="-5.66215" />
           <rotation pitch="180" yaw="0" roll="0" />
