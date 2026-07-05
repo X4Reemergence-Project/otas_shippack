@@ -43,7 +43,7 @@
 		<macro ref="dockarea_otas_xl_battleship_left_macro" connection="Connection01" />
 	  </connection>
 	  <connection ref="con_dock_xs">
-		<macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+		<macro ref="dock_gen_xs_ship_flat_macro" connection="Connection_component" />
 	  </connection>
 	  <connection ref="con_shipstorage_01">
 		<macro ref="shipstorage_gen_xs_01_macro" connection="object" />

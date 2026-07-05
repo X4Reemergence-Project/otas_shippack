@@ -289,24 +289,6 @@
           </part>
         </parts>
       </connection>
-      <connection name="con_detail_xl" tags="detail_xl nocollision part ">
-        <parts>
-          <part name="detail_xl">
-            <lods>
-              <lod index="0">
-                <materials>
-                  <material id="1" ref="generic.generic_p1_hullpattern" />
-                  <material id="2" ref="generic.generic_p1_fx" />
-                </materials>
-              </lod>
-            </lods>
-            <size>
-              <max x="390.0907" y="24.03487" z="229.4858" />
-              <center x="7.629395e-06" y="-60.48831" z="-537.8228" />
-            </size>
-          </part>
-        </parts>
-      </connection>
       <connection name="con_fx_licence" tags="detail_l nocollision part ">
         <parts>
           <part name="fx_licence">
@@ -407,11 +389,6 @@
 					<position x="320.5" y="-56.7" z="-537.8"/>
 				</offset>
 			</connection>
-			<connection name="con_dock_xs" tags="dock_xs ">
-				<offset>
-					<position x="0" y="-195.038" z="-443.363"/>
-				</offset>
-			</connection>
 
 <!-- DOCKING PADS -->
 			
@@ -427,6 +404,12 @@
 					<rotation yaw="180" pitch="0" roll="0" />	
 				</offset>
 			</connection>	
+			<connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+					<position x="0" y="-195.3416" z="-378.7221" />
+          <quaternion qx="-0.3420201" qy="0" qz="0" qw="-0.9396927" />
+				</offset>
+			</connection>
 
 <!-- SHIELDS -->
       <connection name="con_shieldgen_xl_03" tags="extralarge hittable shield standard ">
@@ -780,6 +763,12 @@
         </offset>
       </connection>
 
+      <connection name="leak_claim" tags="leak_claim ">
+        <offset>
+          <position x="0" y="-212.9315" z="-390.0012" />
+          <quaternion qx="-0.8870107" qy="0" qz="0" qw="-0.4617489" />
+        </offset>
+      </connection>
 
 		</connections>
 	</component>
